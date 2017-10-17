@@ -1,0 +1,6727 @@
+# version 25
+{
+  "turn": 2097799,
+  "calendar_start": 4800,
+  "initial_season": 0,
+  "last_target": -1,
+  "run_mode": 0,
+  "mostseen": 1,
+  "nextspawn": 2097722,
+  "levx": 7,
+  "levy": 352,
+  "levz": 0,
+  "om_x": 1,
+  "om_y": 0,
+  "grscent": "0 8515 22 1 31 1 22 1 0 128 21 1 91 1 109 1 91 1 21 1 0 127 25 1 163 1 171 1 163 1 25 1 0 127 21 1 156 1 306 1 156 1 21 1 0 128 152 1 175 1 152 1 2 1 0 127 11 1 87 1 73 1 87 1 12 1 0 127 13 1 38 1 42 1 38 1 13 1 0 127 11 1 27 1 31 1 27 1 11 1 0 128 10 1 17 1 10 1 0 7850",
+  "active_monsters": [
+    {
+      "moves": -94,
+      "pain": 0,
+      "effects": {
+        
+      },
+      "values": {
+        
+      },
+      "blocks_left": 1,
+      "dodges_left": 1,
+      "num_blocks_bonus": 0,
+      "num_dodges_bonus": 0,
+      "armor_bash_bonus": 0,
+      "armor_cut_bonus": 0,
+      "speed": 85,
+      "speed_bonus": 0,
+      "dodge_bonus": 0.000000,
+      "block_bonus": 0,
+      "hit_bonus": 0.000000,
+      "bash_bonus": 0,
+      "cut_bonus": 0,
+      "bash_mult": 1.000000,
+      "cut_mult": 1.000000,
+      "melee_quiet": false,
+      "grab_resist": 0,
+      "throw_resist": 0,
+      "typeid": "mon_zombie_tough",
+      "unique_name": "",
+      "posx": 39,
+      "posy": 113,
+      "posz": 0,
+      "wandx": 46,
+      "wandy": 96,
+      "wandz": 0,
+      "wandf": 0,
+      "hp": 100,
+      "special_attacks": {
+        "GRAB": {
+          "cooldown": 0,
+          "enabled": true
+        },
+        "bite": {
+          "cooldown": 0,
+          "enabled": true
+        },
+        "scratch": {
+          "cooldown": 0,
+          "enabled": true
+        }
+      },
+      "friendly": 0,
+      "faction": "zombie",
+      "mission_id": -1,
+      "no_extra_death_drops": false,
+      "dead": false,
+      "anger": 100,
+      "morale": 100,
+      "hallucination": false,
+      "stairscount": 0,
+      "destination": [
+        0,
+        0,
+        0
+      ],
+      "ammo": {
+        
+      },
+      "underwater": false,
+      "upgrades": false,
+      "upgrade_time": -1,
+      "last_updated": 2097670,
+      "inv": [
+        
+      ],
+      "path": [
+        
+      ]
+    }
+  ],
+  "stair_monsters": [
+    
+  ],
+  "kills": {
+    "mon_bee": 2,
+    "mon_beekeeper": 5,
+    "mon_blob_large": 1,
+    "mon_blob_small": 15,
+    "mon_boomer": 13,
+    "mon_boomer_huge": 8,
+    "mon_copbot": 5,
+    "mon_cougar": 1,
+    "mon_coyote": 8,
+    "mon_coyote_wolf": 16,
+    "mon_deer": 1,
+    "mon_dog": 38,
+    "mon_dog_skeleton": 5,
+    "mon_dog_zombie_cop": 9,
+    "mon_dog_zombie_rot": 5,
+    "mon_eyebot": 11,
+    "mon_fly": 2,
+    "mon_frog_giant": 2,
+    "mon_gelatin": 1,
+    "mon_giant_cockroach": 6,
+    "mon_halfworm": 4,
+    "mon_kreck": 1,
+    "mon_manhack": 1,
+    "mon_mi_go": 4,
+    "mon_moose": 1,
+    "mon_opossum": 1,
+    "mon_raccoon": 5,
+    "mon_rattlesnake": 4,
+    "mon_rattlesnake_giant": 6,
+    "mon_riotbot": 4,
+    "mon_sewer_rat": 20,
+    "mon_sewer_snake": 4,
+    "mon_skeleton": 5,
+    "mon_sludge_crawler": 1,
+    "mon_spider_cellar_giant": 1,
+    "mon_spider_jumping_giant": 1,
+    "mon_spider_web": 2,
+    "mon_spider_web_s": 1,
+    "mon_spider_widow_giant": 6,
+    "mon_spider_wolf_giant": 3,
+    "mon_turkey": 2,
+    "mon_weasel": 1,
+    "mon_wolf": 1,
+    "mon_worm": 2,
+    "mon_zolf": 8,
+    "mon_zombear": 3,
+    "mon_zombie": 254,
+    "mon_zombie_acidic": 5,
+    "mon_zombie_bio_op": 1,
+    "mon_zombie_biter": 1,
+    "mon_zombie_brute": 10,
+    "mon_zombie_brute_grappler": 2,
+    "mon_zombie_brute_shocker": 4,
+    "mon_zombie_child": 19,
+    "mon_zombie_cop": 26,
+    "mon_zombie_corrosive": 5,
+    "mon_zombie_crawler": 8,
+    "mon_zombie_creepy": 1,
+    "mon_zombie_dog": 12,
+    "mon_zombie_electric": 5,
+    "mon_zombie_fat": 20,
+    "mon_zombie_fireman": 21,
+    "mon_zombie_gasbag": 9,
+    "mon_zombie_grabber": 9,
+    "mon_zombie_grappler": 12,
+    "mon_zombie_hazmat": 15,
+    "mon_zombie_hollow": 1,
+    "mon_zombie_hulk": 3,
+    "mon_zombie_hunter": 10,
+    "mon_zombie_mancroc": 2,
+    "mon_zombie_master": 4,
+    "mon_zombie_necro": 6,
+    "mon_zombie_predator": 5,
+    "mon_zombie_rot": 6,
+    "mon_zombie_runner": 10,
+    "mon_zombie_scientist": 3,
+    "mon_zombie_screecher": 10,
+    "mon_zombie_shady": 35,
+    "mon_zombie_shrieker": 6,
+    "mon_zombie_smoker": 13,
+    "mon_zombie_snotgobbler": 1,
+    "mon_zombie_soldier": 15,
+    "mon_zombie_spitter": 18,
+    "mon_zombie_survivor": 14,
+    "mon_zombie_swimmer": 10,
+    "mon_zombie_technician": 7,
+    "mon_zombie_tough": 83,
+    "mon_zoose": 3,
+    "mon_zougar": 6
+  },
+  "npc_kills": [
+    
+  ],
+  "player": {
+    "moves": 30,
+    "pain": 3,
+    "effects": {
+      
+    },
+    "values": {
+      
+    },
+    "blocks_left": 1,
+    "dodges_left": 1,
+    "num_blocks_bonus": 0,
+    "num_dodges_bonus": 0,
+    "armor_bash_bonus": 0,
+    "armor_cut_bonus": 0,
+    "speed": 100,
+    "speed_bonus": 6,
+    "dodge_bonus": -7.500000,
+    "block_bonus": 0,
+    "hit_bonus": 0.000000,
+    "bash_bonus": 0,
+    "cut_bonus": 0,
+    "bash_mult": 1.000000,
+    "cut_mult": 1.000000,
+    "melee_quiet": false,
+    "grab_resist": 0,
+    "throw_resist": 0,
+    "str_cur": 12,
+    "str_max": 10,
+    "dex_cur": 8,
+    "dex_max": 8,
+    "int_cur": 7,
+    "int_max": 8,
+    "per_cur": 8,
+    "per_max": 8,
+    "str_bonus": 2,
+    "dex_bonus": 0,
+    "per_bonus": 0,
+    "int_bonus": -1,
+    "healthy": 100,
+    "healthy_mod": -190,
+    "thirst": 55,
+    "hunger": 6,
+    "fatigue": 138,
+    "stomach_food": 0,
+    "stomach_water": 0,
+    "underwater": false,
+    "traits": [
+      "PACKMULE",
+      "SQUEAMISH",
+      "QUICK",
+      "BADHEARING",
+      "INFRESIST",
+      "TRUTHTELLER",
+      "UGLY",
+      "FLEET"
+    ],
+    "mutations": {
+      "PACKMULE": {
+        "key": 101,
+        "charge": 0,
+        "powered": false
+      },
+      "SQUEAMISH": {
+        "key": 102,
+        "charge": 0,
+        "powered": false
+      },
+      "QUICK": {
+        "key": 103,
+        "charge": 0,
+        "powered": false
+      },
+      "BADHEARING": {
+        "key": 104,
+        "charge": 0,
+        "powered": false
+      },
+      "INFRESIST": {
+        "key": 100,
+        "charge": 0,
+        "powered": false
+      },
+      "TRUTHTELLER": {
+        "key": 99,
+        "charge": 0,
+        "powered": false
+      },
+      "UGLY": {
+        "key": 98,
+        "charge": 0,
+        "powered": false
+      },
+      "FLEET": {
+        "key": 97,
+        "charge": 0,
+        "powered": false
+      }
+    },
+    "my_bionics": [
+      {
+        "id": "bio_batteries",
+        "invlet": 97,
+        "powered": false,
+        "charge": 0
+      },
+      {
+        "id": "bio_storage",
+        "invlet": 98,
+        "powered": false,
+        "charge": 0
+      },
+      {
+        "id": "bio_str_enhancer",
+        "invlet": 99,
+        "powered": false,
+        "charge": 0
+      },
+      {
+        "id": "bio_torsionratchet",
+        "invlet": 100,
+        "powered": false,
+        "charge": 0
+      },
+      {
+        "id": "bio_adrenaline",
+        "invlet": 101,
+        "powered": false,
+        "charge": 0
+      },
+      {
+        "id": "bio_faraday",
+        "invlet": 102,
+        "powered": false,
+        "charge": 0
+      },
+      {
+        "id": "bio_ups",
+        "invlet": 103,
+        "powered": true,
+        "charge": 0
+      },
+      {
+        "id": "bio_leukocyte",
+        "invlet": 104,
+        "powered": true,
+        "charge": 35
+      },
+      {
+        "id": "bio_solar",
+        "invlet": 105,
+        "powered": false,
+        "charge": 0
+      }
+    ],
+    "skills": {
+      "barter": {
+        "level": 5,
+        "exercise": 1,
+        "istraining": true,
+        "lastpracticed": 240340
+      },
+      "computer": {
+        "level": 6,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 2041997
+      },
+      "cooking": {
+        "level": 8,
+        "exercise": 3071,
+        "istraining": true,
+        "lastpracticed": 2094023
+      },
+      "driving": {
+        "level": 11,
+        "exercise": 6514,
+        "istraining": true,
+        "lastpracticed": 2094603
+      },
+      "electronics": {
+        "level": 10,
+        "exercise": 588,
+        "istraining": true,
+        "lastpracticed": 2080150
+      },
+      "fabrication": {
+        "level": 10,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 2089807
+      },
+      "firstaid": {
+        "level": 8,
+        "exercise": 11,
+        "istraining": true,
+        "lastpracticed": 2089845
+      },
+      "mechanics": {
+        "level": 8,
+        "exercise": 3381,
+        "istraining": true,
+        "lastpracticed": 2097395
+      },
+      "speech": {
+        "level": 7,
+        "exercise": 107,
+        "istraining": true,
+        "lastpracticed": 2055131
+      },
+      "survival": {
+        "level": 8,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 2097425
+      },
+      "swimming": {
+        "level": 1,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 856323
+      },
+      "tailor": {
+        "level": 4,
+        "exercise": 1897,
+        "istraining": true,
+        "lastpracticed": 2089953
+      },
+      "traps": {
+        "level": 4,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 527061
+      },
+      "archery": {
+        "level": 3,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 4800
+      },
+      "bashing": {
+        "level": 5,
+        "exercise": 2158,
+        "istraining": true,
+        "lastpracticed": 2097413
+      },
+      "cutting": {
+        "level": 5,
+        "exercise": 800,
+        "istraining": true,
+        "lastpracticed": 2097413
+      },
+      "dodge": {
+        "level": 5,
+        "exercise": 1583,
+        "istraining": true,
+        "lastpracticed": 2096904
+      },
+      "gun": {
+        "level": 4,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 1368742
+      },
+      "launcher": {
+        "level": 1,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 600141
+      },
+      "melee": {
+        "level": 5,
+        "exercise": 1050,
+        "istraining": true,
+        "lastpracticed": 2097413
+      },
+      "stabbing": {
+        "level": 5,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 2097413
+      },
+      "throw": {
+        "level": 6,
+        "exercise": 3,
+        "istraining": true,
+        "lastpracticed": 366476
+      },
+      "unarmed": {
+        "level": 7,
+        "exercise": 323,
+        "istraining": true,
+        "lastpracticed": 1859047
+      },
+      "pistol": {
+        "level": 5,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 4800
+      },
+      "rifle": {
+        "level": 2,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 1000514
+      },
+      "shotgun": {
+        "level": 4,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 553088
+      },
+      "smg": {
+        "level": 4,
+        "exercise": 0,
+        "istraining": true,
+        "lastpracticed": 975281
+      }
+    },
+    "posx": 67,
+    "posy": 68,
+    "posz": 0,
+    "stim": 0,
+    "pkill": 0,
+    "radiation": 0,
+    "tank_plut": 0,
+    "reactor_plut": 0,
+    "slow_rad": 0,
+    "scent": 500,
+    "body_wetness": [
+      13,
+      4,
+      0,
+      0,
+      6,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "oxygen": 0,
+    "male": true,
+    "cash": 0,
+    "recoil": 600.000000,
+    "in_vehicle": true,
+    "id": 1,
+    "hp_cur": [
+      90,
+      84,
+      85,
+      73,
+      89,
+      90
+    ],
+    "hp_max": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "power_level": 460,
+    "max_power_level": 460,
+    "ma_styles": [
+      "style_brawling",
+      "style_fencing"
+    ],
+    "addictions": [
+      
+    ],
+    "known_traps": [
+      {
+        "x": 892,
+        "y": 2748,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 896,
+        "y": 2747,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 896,
+        "y": 2752,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 897,
+        "y": 2747,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 899,
+        "y": 2750,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 900,
+        "y": 2755,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 901,
+        "y": 2753,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 1893,
+        "y": 3036,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1896,
+        "y": 3014,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1918,
+        "y": 3083,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1948,
+        "y": 3360,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1949,
+        "y": 3357,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1953,
+        "y": 3366,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1955,
+        "y": 3186,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1960,
+        "y": 3203,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1962,
+        "y": 3360,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1963,
+        "y": 3321,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 1972,
+        "y": 3322,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1977,
+        "y": 3321,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 1984,
+        "y": 3327,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 2033,
+        "y": 2966,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 2037,
+        "y": 2970,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 2038,
+        "y": 2952,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 2041,
+        "y": 3200,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 2056,
+        "y": 2966,
+        "z": 0,
+        "trap": "tr_sinkhole"
+      },
+      {
+        "x": 2338,
+        "y": 3203,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 2342,
+        "y": 3199,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 2344,
+        "y": 3211,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 2345,
+        "y": 3200,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 2348,
+        "y": 3197,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 2348,
+        "y": 3199,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3265,
+        "y": 2707,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3273,
+        "y": 2709,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3282,
+        "y": 2706,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3284,
+        "y": 2701,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3409,
+        "y": 2869,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3410,
+        "y": 2865,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3412,
+        "y": 2870,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3413,
+        "y": 2870,
+        "z": 0,
+        "trap": "tr_landmine_buried"
+      },
+      {
+        "x": 3810,
+        "y": 3490,
+        "z": 0,
+        "trap": "tr_portal"
+      },
+      {
+        "x": 4226,
+        "y": 3021,
+        "z": 0,
+        "trap": "tr_pit"
+      },
+      {
+        "x": 4309,
+        "y": 3128,
+        "z": 0,
+        "trap": "tr_pit"
+      },
+      {
+        "x": 4949,
+        "y": 2572,
+        "z": 0,
+        "trap": "tr_lava"
+      },
+      {
+        "x": 4950,
+        "y": 2573,
+        "z": 0,
+        "trap": "tr_lava"
+      },
+      {
+        "x": 4951,
+        "y": 2574,
+        "z": 0,
+        "trap": "tr_lava"
+      },
+      {
+        "x": 4952,
+        "y": 2575,
+        "z": 0,
+        "trap": "tr_lava"
+      }
+    ],
+    "worn": [
+      {
+        "typeid": "socks",
+        "invlet": 97,
+        "item_tags": [
+          "FIT"
+        ]
+      },
+      {
+        "typeid": "sunglasses",
+        "invlet": 42
+      },
+      {
+        "typeid": "helmet_riot",
+        "invlet": 99
+      },
+      {
+        "typeid": "2lcanteen",
+        "invlet": 103,
+        "contents": [
+          {
+            "typeid": "water_clean",
+            "charges": 5,
+            "bday": 2077200,
+            "rot": 8165,
+            "last_rot_check": 2089568
+          }
+        ]
+      },
+      {
+        "typeid": "canteen",
+        "item_vars": {
+          "lateral": "1"
+        },
+        "invlet": 106
+      },
+      {
+        "typeid": "binoculars",
+        "invlet": 108,
+        "damage": -1.000000
+      },
+      {
+        "typeid": "sf_watch",
+        "item_vars": {
+          "lateral": "1"
+        },
+        "invlet": 72
+      },
+      {
+        "typeid": "legguard_hard",
+        "invlet": 75,
+        "damage": -1.000000
+      },
+      {
+        "typeid": "backpack",
+        "bday": 686668,
+        "invlet": 85
+      },
+      {
+        "typeid": "brooch",
+        "invlet": 88
+      },
+      {
+        "typeid": "backpack_leather",
+        "invlet": 111,
+        "damage": 1.000000
+      },
+      {
+        "typeid": "gloves_fingerless",
+        "invlet": 105,
+        "damage": 1.000000,
+        "item_tags": [
+          "FIT"
+        ]
+      },
+      {
+        "typeid": "rad_badge",
+        "bday": 955553,
+        "invlet": 116
+      },
+      {
+        "typeid": "boots_combat",
+        "invlet": 102
+      },
+      {
+        "typeid": "holy_symbol",
+        "invlet": 94
+      },
+      {
+        "typeid": "pants_army",
+        "bday": 1877151,
+        "invlet": 80
+      },
+      {
+        "typeid": "jacket_army",
+        "bday": 1877151,
+        "invlet": 81,
+        "item_tags": [
+          "FIT"
+        ]
+      },
+      {
+        "typeid": "boxer_shorts",
+        "invlet": 100,
+        "item_tags": [
+          "FIT"
+        ]
+      }
+    ],
+    "inv": [
+      {
+        "typeid": "grenade",
+        "bday": 1818091,
+        "invlet": 78
+      },
+      {
+        "typeid": "stethoscope",
+        "bday": 443158,
+        "invlet": 86
+      },
+      {
+        "typeid": "misc_repairkit",
+        "charges": 100,
+        "bday": 1351286,
+        "invlet": 98,
+        "curammo": "duct_tape"
+      },
+      {
+        "typeid": "toolbox",
+        "bday": 385327,
+        "invlet": 118
+      },
+      {
+        "typeid": "survivor_mess_kit",
+        "charges": 788,
+        "bday": 413071,
+        "invlet": 113,
+        "components": [
+          {
+            "typeid": "pot",
+            "bday": 47804,
+            "invlet": 116
+          },
+          {
+            "typeid": "oil_cooker",
+            "bday": 413018,
+            "invlet": 113,
+            "components": [
+              {
+                "typeid": "oil_lamp",
+                "bday": 395214,
+                "invlet": 113,
+                "curammo": "lamp_oil"
+              },
+              {
+                "typeid": "pilot_light",
+                "bday": 412909,
+                "invlet": 113
+              },
+              {
+                "typeid": "scrap",
+                "charges": 3,
+                "bday": 392844,
+                "invlet": 115
+              },
+              {
+                "typeid": "duct_tape",
+                "charges": 50,
+                "bday": 221084,
+                "invlet": 88
+              }
+            ],
+            "curammo": "lamp_oil"
+          }
+        ],
+        "curammo": "lamp_oil"
+      },
+      {
+        "typeid": "lighter",
+        "charges": 73,
+        "bday": 1320107,
+        "invlet": 68
+      },
+      {
+        "typeid": "pockknife",
+        "bday": 1877151,
+        "invlet": 120
+      },
+      {
+        "typeid": "crowbar",
+        "invlet": 117
+      },
+      {
+        "typeid": "hose",
+        "bday": 929957,
+        "invlet": 38
+      },
+      {
+        "typeid": "matches",
+        "charges": 20,
+        "bday": 1861470,
+        "invlet": 87
+      },
+      {
+        "typeid": "cash_card",
+        "charges": 10981,
+        "bday": 1320107,
+        "invlet": 82,
+        "curammo": "money"
+      },
+      {
+        "typeid": "cash_card",
+        "charges": 18665,
+        "bday": 1349667,
+        "invlet": 64,
+        "curammo": "money"
+      },
+      {
+        "typeid": "cash_card",
+        "charges": 104810,
+        "bday": 180076,
+        "invlet": 66,
+        "curammo": "money"
+      },
+      {
+        "typeid": "jack",
+        "bday": 1142049,
+        "invlet": 33
+      },
+      {
+        "typeid": "electrohack",
+        "charges": 100,
+        "bday": 2045210,
+        "invlet": 109,
+        "components": [
+          {
+            "typeid": "processor",
+            "bday": 1132624
+          },
+          {
+            "typeid": "RAM",
+            "bday": 970046
+          },
+          {
+            "typeid": "scrap",
+            "charges": 4,
+            "bday": 392844,
+            "invlet": 115
+          },
+          {
+            "typeid": "cable",
+            "charges": 10,
+            "invlet": 113
+          }
+        ],
+        "curammo": "battery"
+      },
+      {
+        "typeid": "soldering_iron",
+        "charges": 200,
+        "invlet": 73,
+        "contents": [
+          {
+            "typeid": "battery_ups",
+            "bday": 1405884,
+            "invlet": 107,
+            "components": [
+              {
+                "typeid": "power_supply",
+                "bday": 1315600,
+                "invlet": 84
+              },
+              {
+                "typeid": "small_storage_battery",
+                "charges": 168,
+                "invlet": 115,
+                "contents": [
+                  {
+                    "typeid": "battery",
+                    "charges": 168,
+                    "bday": 1162862,
+                    "item_tags": [
+                      "IRREMOVABLE",
+                      "NO_DROP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "typeid": "scrap",
+                "charges": 4,
+                "bday": 1379451,
+                "invlet": 71
+              },
+              {
+                "typeid": "cable",
+                "charges": 10,
+                "bday": 1336491,
+                "invlet": 83
+              }
+            ]
+          }
+        ],
+        "curammo": "battery"
+      },
+      {
+        "typeid": "welder",
+        "charges": 380,
+        "bday": 1336491,
+        "invlet": 121,
+        "curammo": "battery"
+      },
+      {
+        "typeid": "sewing_kit",
+        "charges": 67,
+        "invlet": 122,
+        "curammo": "thread"
+      },
+      {
+        "typeid": "heavy_flashlight",
+        "charges": 200,
+        "bday": 2082442,
+        "invlet": 115,
+        "curammo": "battery"
+      },
+      {
+        "typeid": "heavy_flashlight",
+        "charges": 200,
+        "bday": 1822989,
+        "invlet": 107,
+        "contents": [
+          {
+            "typeid": "battery_ups",
+            "charges": 1,
+            "bday": 1893420,
+            "invlet": 41,
+            "components": [
+              {
+                "typeid": "power_supply",
+                "bday": 1893276
+              },
+              {
+                "typeid": "small_storage_battery",
+                "bday": 1893276
+              },
+              {
+                "typeid": "scrap",
+                "charges": 4,
+                "bday": 1893276
+              },
+              {
+                "typeid": "cable",
+                "charges": 10,
+                "bday": 1893276
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "typeid": "tailors_kit",
+        "charges": 258,
+        "invlet": 46,
+        "curammo": "thread"
+      },
+      {
+        "typeid": "fire_drill_large",
+        "bday": 7086,
+        "invlet": 104
+      },
+      {
+        "typeid": "bottle_glass",
+        "bday": 2094487,
+        "invlet": 61,
+        "contents": [
+          {
+            "typeid": "vodka",
+            "charges": 21,
+            "bday": 2094487,
+            "rot": 1827,
+            "last_rot_check": 2097238
+          }
+        ]
+      },
+      {
+        "typeid": "large_stomach_sealed",
+        "bday": 801011,
+        "invlet": 74,
+        "contents": [
+          {
+            "typeid": "water_clean",
+            "charges": 10,
+            "bday": 2077200,
+            "rot": 1901,
+            "last_rot_check": 2080370
+          }
+        ]
+      },
+      {
+        "typeid": "can_food",
+        "bday": 2094487,
+        "invlet": 91,
+        "contents": [
+          {
+            "typeid": "curry_meat",
+            "charges": 2,
+            "bday": 2094487,
+            "active": true,
+            "last_rot_check": 2097798
+          }
+        ]
+      },
+      {
+        "typeid": "can_food",
+        "bday": 2089734,
+        "invlet": 35,
+        "contents": [
+          {
+            "typeid": "can_beans",
+            "charges": 1,
+            "bday": 2089734,
+            "active": true,
+            "last_rot_check": 2097798
+          }
+        ]
+      },
+      {
+        "typeid": "bag_plastic",
+        "bday": 2094487,
+        "invlet": 124,
+        "contents": [
+          {
+            "typeid": "dry_rice",
+            "charges": 16,
+            "bday": 2094487
+          }
+        ]
+      },
+      {
+        "typeid": "can_drink",
+        "invlet": 114,
+        "contents": [
+          {
+            "typeid": "orangesoda",
+            "charges": 1
+          }
+        ]
+      },
+      {
+        "typeid": "bag_plastic",
+        "bday": 2094487,
+        "invlet": 125,
+        "contents": [
+          {
+            "typeid": "tea_raw",
+            "charges": 20,
+            "bday": 2094487
+          }
+        ]
+      },
+      {
+        "typeid": "sausage",
+        "charges": 3,
+        "invlet": 43
+      },
+      {
+        "typeid": "wrapper",
+        "bday": 2094487,
+        "invlet": 59,
+        "contents": [
+          {
+            "typeid": "fish_sandwich",
+            "charges": 4,
+            "bday": 2094487,
+            "active": true,
+            "rot": 2113,
+            "last_rot_check": 2097788
+          }
+        ]
+      },
+      {
+        "typeid": "1st_aid",
+        "charges": 2,
+        "bday": 2083669,
+        "invlet": 110
+      },
+      {
+        "typeid": "antibiotics",
+        "charges": 9,
+        "bday": 1349931,
+        "invlet": 69
+      },
+      {
+        "typeid": "bottle_plastic",
+        "invlet": 101,
+        "contents": [
+          {
+            "typeid": "disinfectant",
+            "charges": 4,
+            "rot": 1065172,
+            "last_rot_check": 2082606
+          }
+        ]
+      },
+      {
+        "typeid": "bandages",
+        "charges": 5,
+        "invlet": 79
+      },
+      {
+        "typeid": "poppy_pain",
+        "charges": 16,
+        "bday": 1536577,
+        "invlet": 76
+      },
+      {
+        "typeid": "id_military",
+        "invlet": 40
+      },
+      {
+        "typeid": "id_science",
+        "invlet": 119
+      },
+      {
+        "typeid": "duct_tape",
+        "charges": 216,
+        "invlet": 58
+      }
+    ],
+    "weapon": {
+      "typeid": "zweifire_off",
+      "charges": 44,
+      "bday": 2068623,
+      "invlet": 112,
+      "damage": -1.000000,
+      "components": [
+        {
+          "typeid": "leather",
+          "bday": 642640,
+          "invlet": 116
+        },
+        {
+          "typeid": "leather",
+          "bday": 642640,
+          "invlet": 116
+        },
+        {
+          "typeid": "leather",
+          "bday": 642640,
+          "invlet": 116
+        },
+        {
+          "typeid": "leather",
+          "bday": 642640,
+          "invlet": 116
+        },
+        {
+          "typeid": "leather",
+          "bday": 642640,
+          "invlet": 116
+        },
+        {
+          "typeid": "pipe",
+          "bday": 911396,
+          "invlet": 121
+        },
+        {
+          "typeid": "zweihander",
+          "invlet": 70,
+          "damage": -1.000000
+        },
+        {
+          "typeid": "flamethrower_crude",
+          "invlet": 107
+        }
+      ],
+      "curammo": "gasoline"
+    },
+    "profession": "unemployed",
+    "scenario": "evacuee",
+    "controlling_vehicle": false,
+    "grab_point": [
+      0,
+      0,
+      0
+    ],
+    "grab_type": "OBJECT_NONE",
+    "focus_pool": 60,
+    "style_selected": "style_none",
+    "keep_hands_free": false,
+    "stamina": 1000,
+    "move_mode": "walk",
+    "activity": {
+      "type": "ACT_NULL",
+      "moves_left": 0,
+      "index": 22491968,
+      "position": 0,
+      "coords": [
+        
+      ],
+      "name": "",
+      "targets": [
+        
+      ],
+      "placement": [
+        0,
+        0,
+        0
+      ],
+      "values": [
+        
+      ],
+      "str_values": [
+        
+      ],
+      "auto_resume": false
+    },
+    "backlog": [
+      
+    ],
+    "temp_cur": [
+      5644,
+      5100,
+      5000,
+      5260,
+      5039,
+      5039,
+      5230,
+      5211,
+      6333,
+      6333,
+      5929,
+      5929
+    ],
+    "temp_conv": [
+      5601,
+      5100,
+      5000,
+      5260,
+      5023,
+      5023,
+      5263,
+      5265,
+      6333,
+      6333,
+      5929,
+      5929
+    ],
+    "frostbite_timer": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "learned_recipes": [
+      "arrow_wood",
+      "bolt_wood",
+      "marble",
+      "bearing",
+      "arrow_field_point_fletched",
+      "arrow_small_game_fletched",
+      "arrow_fire_hardened_fletched",
+      "pebble",
+      "arrow_metal_sharpened_fletched",
+      "",
+      "arrow_heavy_fire_hardened_fletched",
+      "arrow_heavy_field_point_fletched",
+      "blun_slug",
+      "bolt_steel",
+      "m_fishspear",
+      "arrow_plastic",
+      "steel_rail",
+      "rebar_rail",
+      "fishspear",
+      "blun_flechette",
+      "blun_shot",
+      "combatnail",
+      "bolt_metal",
+      "hotplate",
+      "electrohack",
+      "radio",
+      "soldering_iron",
+      "water_purifier",
+      "bio_evap",
+      "solar_panel",
+      "weldrig",
+      "rad_monitor",
+      "recharge_station",
+      "flashlight",
+      "UPS_off",
+      "battery",
+      "bio_power_storage_mkII",
+      "kitchen_unit",
+      "craftrig",
+      "medium_storage_battery",
+      "dehydrator",
+      "pipebomb_radio",
+      "dynamite_radio",
+      "motor_small",
+      "cable",
+      "water_clean",
+      "salt_from_salt_water",
+      "remotevehcontrol",
+      "meat_cooked",
+      "camera_control",
+      "sweetbread",
+      "offal_canned_jarred",
+      "omnicamera_from-cameras",
+      "mushroom_cooked",
+      "offal_cooked",
+      "offal_pickled_jarred",
+      "stomach_boiled",
+      "radio_mod",
+      "offal_canned",
+      "hstomach_boiled",
+      "salt_from_mineral",
+      "sheet_metal_lit",
+      "antenna",
+      "element",
+      "receiver",
+      "lightstrip_inactive",
+      "power_supply",
+      "cordless_drill",
+      "protein_drink",
+      "fish_cooked",
+      "mayonnaise",
+      "hflesh_drink",
+      "human_cooked",
+      "cooked_dinner",
+      "dandelion_cooked",
+      "cooked_cattail_stalk",
+      "rehydrated_fruit",
+      "rehydrated_meat",
+      "onion_rings",
+      "nachosc",
+      "nachos",
+      "bologna",
+      "fish_smoked",
+      "hflesh_shake",
+      "catfood",
+      "tallow",
+      "cooking_oil",
+      "meat_smoked",
+      "veggy_wild_cooked",
+      "small_stomach_boiled",
+      "small_hstomach_boiled",
+      "dandelion_fried",
+      "rehydrated_hflesh",
+      "rehydrated_veggy",
+      "protein_shake",
+      "morel_fried",
+      "fish_fried",
+      "lard",
+      "acorns_cooked",
+      "spaghetti_cooked",
+      "rehydrated_fish",
+      "dogfood",
+      "sausage",
+      "veggy_cooked",
+      "morel_cooked",
+      "cooked_burrito",
+      "macaroni_cooked",
+      "macaroni_helper",
+      "cooked_pumpkin",
+      "potato_baked",
+      "chips2",
+      "fried_seeds",
+      "nachosm",
+      "nachosmc",
+      "nachoshf",
+      "nachoshc",
+      "fresh_fries",
+      "cheese_fries",
+      "popcorn",
+      "popcorn2",
+      "tea",
+      "spezi",
+      "herbal_tea",
+      "roasted_coffee_bean",
+      "milk_from_condensed",
+      "coffee",
+      "coffee_raw",
+      "oj",
+      "cranberry_juice",
+      "can_coconut",
+      "starch_from_fibrous_stuff",
+      "apple_cider",
+      "lemonade",
+      "lemonade_from_mix",
+      "atomic_coffee",
+      "pine_tea",
+      "dandelion_tea",
+      "kompot",
+      "coffee_syrup",
+      "crispycran",
+      "milk_from_powder",
+      "starch",
+      "irish_coffee",
+      "soup_mushroom_jarred",
+      "beet_syrup",
+      "cornbread",
+      "soup_veggy",
+      "deluxe_veggy_beans",
+      "deluxe_beansnrice",
+      "drink_rumcola",
+      "cheese_hard",
+      "broth",
+      "beansnrice",
+      "buckwheat_cooked",
+      "johnnycake",
+      "deluxe_veggy_rice",
+      "biscuit",
+      "deluxe_rice",
+      "brownie_weed",
+      "veggy_aspic",
+      "broth_bone",
+      "soup_fish",
+      "flatbread",
+      "cracklins",
+      "drink_wild_apple",
+      "can_chowder",
+      "long_island",
+      "V8",
+      "soup_woods",
+      "soup_mushroom",
+      "soup_mushroom_canned",
+      "meat_aspic",
+      "pemmican",
+      "salted_fish",
+      "drink_screwdriver",
+      "jerky",
+      "V8_jarred",
+      "bread",
+      "syrup",
+      "soup_meat",
+      "tortilla_corn",
+      "hardtack",
+      "beans_cooked",
+      "deluxe_beans",
+      "rice_cooked",
+      "deluxe_veggy_beansnrice",
+      "oatmeal",
+      "oatmeal_cooked",
+      "oatmeal_deluxe",
+      "chilly-p",
+      "hickory_nut_unshelled",
+      "hickory_nut_roasted",
+      "granola",
+      "boiled_egg",
+      "pine_nuts",
+      "scrambled_eggs",
+      "deluxe_eggs",
+      "pancakes",
+      "pie_meat",
+      "curry_meat",
+      "curry_veggy",
+      "fruit_waffles",
+      "cookies",
+      "choc_pancakes",
+      "fruit_pancakes",
+      "choco_coffee_beans",
+      "pie",
+      "chocpretzels",
+      "frenchtoast",
+      "waffles",
+      "seasoning_salt",
+      "pie_veggy",
+      "pie_maple",
+      "fruit_leather",
+      "choc_waffles",
+      "apple_canned_jarred",
+      "meal_bone_tainted",
+      "soup_woods_jarred",
+      "mixed_alcohol_strong",
+      "drink_strawberry_surprise",
+      "salt_from_hickory",
+      "veggy_canned_jarred",
+      "soup_meat_jarred",
+      "meat_canned_jarred",
+      "broth_bone_jarred",
+      "soup_fish_jarred",
+      "fish_canned_jarred",
+      "smores",
+      "bag_meat_vac",
+      "bag_fish_vac",
+      "kompot_jarred",
+      "flour",
+      "bag_veggy_vac",
+      "meal_bone",
+      "lasagne_raw",
+      "fried_spam",
+      "sugar_from_sweets",
+      "spaghetti_bolognese",
+      "salt",
+      "bag_apple_vac",
+      "cornmeal",
+      "pizza_veggy",
+      "pizza_meat",
+      "soup_veggy_jarred",
+      "broth_jarred",
+      "macaroni_raw",
+      "spaghetti_raw",
+      "vodka_from_ethanol",
+      "mixed_alcohol_weak",
+      "drink_boozeberry",
+      "fish_sandwich",
+      "lutefisk",
+      "sandwich_deluxe",
+      "cola_meth",
+      "hamburger",
+      "taco",
+      "taint_tornado",
+      "quesadilla_cheese",
+      "hotdogs_campfire",
+      "hotdogs_cooked",
+      "chilidogs",
+      "cheeseburger",
+      "sloppyjoe",
+      "sandwich_pb",
+      "veggy_pickled_jarred",
+      "sauerkraut_ferment",
+      "corndogs_cooked",
+      "sausagegravy",
+      "sandwich_pbj",
+      "sandwich_human",
+      "toasterpastry",
+      "blt",
+      "sandwich_pbm",
+      "sandwich_pbh",
+      "sandwich_t",
+      "sauce_red",
+      "ketchup",
+      "currywurst",
+      "sandwich_cheese",
+      "wastebread",
+      "soup_woods_canned",
+      "meal_chitin_piece_with_from_food_processor",
+      "soup_fish_canned",
+      "milk_coffee",
+      "bee_balm_tea",
+      "can_tomato",
+      "sandwich_jam",
+      "soup_meat_canned",
+      "sandwich_honey",
+      "sandwich_cheese_grilled",
+      "sandwich_sauce",
+      "milk_tea",
+      "chai_tea",
+      "drink_hobo",
+      "honey_gold",
+      "soup_cullenskink",
+      "pelmeni",
+      "honey_bottled_from_honey_glassed",
+      "haggis",
+      "drink_beeknees",
+      "oatmeal_with_food_processor",
+      "cornmeal_with_from_food_processor",
+      "flour_with_from_food_processor",
+      "sandwich_cucumber",
+      "drink_sewerbrew",
+      "honey_bottled",
+      "drink_wsour",
+      "sandwich_veggy",
+      "royal_beef",
+      "hot_chocolate",
+      "honey_glassed",
+      "meal_bone_with_from_food_processor",
+      "meal_bone_tainted_with_from_food_processor",
+      "soup_veggy_canned",
+      "drink_kalimotxo",
+      "cattlefodder",
+      "chilly-p_with_from_food_processor",
+      "salt_water",
+      "water_acid",
+      "tallow_tainted",
+      "handrolled_cig",
+      "joint",
+      "meth",
+      "crack",
+      "poppy_pain",
+      "fungicide",
+      "acid",
+      "acid_from batteries",
+      "apple_canned",
+      "sauerkraut_onions",
+      "fish_pickled_jarred",
+      "juice",
+      "sweet_water",
+      "veggy_salad",
+      "sugar",
+      "jam_fruit",
+      "sugar_fried",
+      "can_tomato_jarred",
+      "fish_canned",
+      "human_canned",
+      "meat_pickled_jarred",
+      "fruit_cooked",
+      "brioche",
+      "insta_salad",
+      "juice_fresh",
+      "meat_canned",
+      "veggy_canned",
+      "flask_yeast",
+      "chem_nitric_acid",
+      "caltrops_from wire",
+      "reinforced_glass_sheet",
+      "chem_sulphuric_acid",
+      "chem_hydrogen_peroxide",
+      "iodine",
+      "soap",
+      "heatpack",
+      "fertilizer_bomb",
+      "concrete",
+      "wood_smoother",
+      "fertilizer_liquid",
+      "chem_aluminium_sulphate",
+      "bleach",
+      "oxy_powder",
+      "pur_tablets",
+      "chem_ammonium_nitrate",
+      "poppysyrup",
+      "chem_acetic_acid",
+      "chem_thermite",
+      "chem_saltpetre_niter",
+      "caltrops",
+      "down_pillow",
+      "pillow",
+      "felt_patch",
+      "meal_chitin_piece",
+      "survivor_light",
+      "oil_lamp",
+      "gasoline_lantern",
+      "reinforced_glass_pane",
+      "reinforced_solar_panel",
+      "wearable_light",
+      "primitive_hammer",
+      "makeshift_hammer",
+      "needle_bone",
+      "headlight_reinforced",
+      "needle_wood",
+      "rolling_paper",
+      "string_36",
+      "rope_30",
+      "rope_6_from_string",
+      "rock_pot",
+      "waterskin",
+      "fire_drill",
+      "large_stomach_sealed",
+      "primitive_adze",
+      "shelter_kit",
+      "fur_rollmat",
+      "makeshift_funnel",
+      "carding_paddles",
+      "cargo_rack",
+      "v_curtain_item",
+      "primitive_axe",
+      "seat",
+      "digging_stick",
+      "cotton_ball_by hand",
+      "fire_drill_large",
+      "waterskin3",
+      "cotton_ball",
+      "w_table",
+      "stomach_sealed",
+      "primitive_knife",
+      "bone_flute",
+      "crude_firestarter",
+      "distaff_spindle",
+      "shelter_kit_repair",
+      "water_faucet",
+      "copper_ax",
+      "waterskin2",
+      "foot_crank",
+      "thread",
+      "rag_knitting",
+      "rag",
+      "primitive_shovel",
+      "knitting_needles",
+      "muffler",
+      "towel",
+      "sheet",
+      "string_6",
+      "rope_6_from_cloth",
+      "rope_makeshift_6",
+      "wire_barbed",
+      "candle",
+      "wire",
+      "holy_symbol_wood",
+      "spike",
+      "blade",
+      "screwdriver",
+      "2x4",
+      "folding_basket",
+      "rope_makeshift_30",
+      "foldframe",
+      "foldwoodframe",
+      "wheel_wheelchair",
+      "hand_rims",
+      "frame",
+      "basket",
+      "hdframe",
+      "canister_goo",
+      "jerrycan",
+      "leg_splint",
+      "mold_plastic",
+      "frame_wood",
+      "metal_tank",
+      "anvil",
+      "wheel_wood_b",
+      "chemistry_set_basic",
+      "scrap_copper",
+      "jerrycan_big",
+      "board_trap",
+      "spiked_plate",
+      "metal_tank_little",
+      "arm_splint",
+      "shotgun_trap",
+      "bowl_plastic",
+      "crude_picklock",
+      "it_battery_mount",
+      "tree_spile",
+      "tripwire",
+      "brazier",
+      "beartrap",
+      "jug_plastic",
+      "wheel_wood",
+      "frame_wood_light",
+      "flask_hip",
+      "crossbow_trap",
+      "bottle_plastic",
+      "wood_plate",
+      "steel_plate",
+      "bottle_plastic_small",
+      "chemistry_set",
+      "misc_repairkit",
+      "rock_quern",
+      "welder_crude",
+      "popcan_stove",
+      "forge",
+      "crucible",
+      "crucible_clay",
+      "swage",
+      "nail",
+      "scissors",
+      "pot_copper",
+      "hand_drill",
+      "chisel",
+      "pot",
+      "hammer",
+      "teapot",
+      "tongs",
+      "blade_from steel",
+      "wrench",
+      "pliers",
+      "waffleiron",
+      "e_tool",
+      "mirror_from_steel",
+      "fishing_hook_bone",
+      "survivor_scope",
+      "hammer_sledge",
+      "hacksaw",
+      "con_mix",
+      "55gal_drum",
+      "mop",
+      "shovel",
+      "brick_kiln",
+      "char_kiln",
+      "magnifying_glass",
+      "kiln_full",
+      "glass_sheet",
+      "saw",
+      "30gal_drum",
+      "well_pump",
+      "ax",
+      "boltcutters",
+      "hoe",
+      "metal_smoother",
+      "char_purifier",
+      "wooden_barrel",
+      "chain",
+      "30gal_barrel",
+      "canister_empty",
+      "pastaextruder",
+      "crackpipe",
+      "fishing_rod_basic",
+      "fishing_hook_basic",
+      "skewer_bone",
+      "bag_canvas",
+      "material_quicklime",
+      "bag_canvas_small",
+      "material_cement",
+      "cu_pipe",
+      "pilot_light",
+      "paper",
+      "toolbox",
+      "fish_trap",
+      "vacutainer",
+      "plastic_chunk",
+      "pipe",
+      "survival_marker",
+      "plastic_chunk_from_plastic_bags",
+      "chitin_plate",
+      "bone_plate",
+      "wheel_metal",
+      "cured_pelt",
+      "survivor_hairtrimmer",
+      "chipper",
+      "survivor_shavingkit",
+      "tanning_pelt",
+      "cured_hide",
+      "cured_hide_scraped",
+      "tanning_pelt_modern",
+      "jug_clay",
+      "clay_pot",
+      "clay_hydria",
+      "clay_quern",
+      "brick",
+      "spring",
+      "leather_funnel",
+      "clay_canister",
+      "mortar_build",
+      "gasoline_cooker",
+      "rebar",
+      "bucket",
+      "survivor_mess_kit",
+      "funnel",
+      "metal_funnel",
+      "lobotomizer",
+      "bowl_clay",
+      "tanning_hide",
+      "paint_brush",
+      "clay_watercont",
+      "jumper_cable",
+      "clay_teapot",
+      "charcoal_cooker",
+      "oil_cooker",
+      "2lcanteen",
+      "jug_plastic_plastic-mod",
+      "chem_sulphur",
+      "canteen",
+      "plant_fibre",
+      "chem_aluminium_powder",
+      "brass_catcher",
+      "bow_sight",
+      "arrowrest",
+      "sword_wood",
+      "rifle_22",
+      "rifle_3006",
+      "adjustable_stock",
+      "folding_stock",
+      "flamethrower_simple",
+      "rifle_9mm",
+      "rifle_308",
+      "blunderbuss",
+      "pipe_shotgun",
+      "m320",
+      "aux_flamer",
+      "shoulder_strap",
+      "pistol_bayonet",
+      "grip",
+      "pistol_grip",
+      "pistol_stock",
+      "2_shot_special",
+      "combatsaw_off",
+      "makeshift_bayonet",
+      "pipe_double_shotgun",
+      "suppressor",
+      "bipod",
+      "barrel_big",
+      "crafted_suppressor",
+      "recoil_stock",
+      "waterproof_gunmod",
+      "bow_stabilizer",
+      "zweifire_off",
+      "tihar",
+      "bigun",
+      "helsing",
+      "ashot",
+      "rebar_rifle",
+      "sword_nail",
+      "flamethrower_crude",
+      "knuckle_steel",
+      "machete",
+      "sword_crude",
+      "minispeargun",
+      "hatchet",
+      "punch_dagger",
+      "switchblade",
+      "lawn_dart",
+      "throwing_knife",
+      "rock_sock",
+      "glass_shiv",
+      "diveknife",
+      "cs_lajatang_off",
+      "speargun",
+      "knuckle_nail",
+      "doublespeargun",
+      "knife_butcher",
+      "scythe",
+      "throwing_axe",
+      "q_staff",
+      "i_staff",
+      "lajatang",
+      "glass_macuahuitl",
+      "laser_cannon",
+      "knife_steak",
+      "knife_rambo",
+      "l_car_223",
+      "l_mbr_223",
+      "shortbow",
+      "scythe_war",
+      "javelin",
+      "reflexrecurvebow",
+      "mosin91_30",
+      "makeshift_knife",
+      "mosin44",
+      "mosin91_30_ebr",
+      "longbow",
+      "washboard",
+      "spear_rebar",
+      "sling",
+      "javelin_iron",
+      "pointy_stick",
+      "makeshift_halberd",
+      "homewrecker",
+      "bowling_axe",
+      "makeshift_machete",
+      "sling_cord",
+      "bullwhip",
+      "spear_knife",
+      "selfbow",
+      "copper_knife",
+      "spear_wood",
+      "nailboard",
+      "revolver_shotgun",
+      "surv_hand_cannon",
+      "mosin44_ebr",
+      "nailbat",
+      "cudgel",
+      "bwirebat",
+      "spear_copper",
+      "surv_six_shooter",
+      "slingshot",
+      "spear_forked",
+      "m2browning_sawn",
+      "spear_survivor",
+      "survivor_machete",
+      "abzats",
+      "gloves_wraps_wool",
+      "socks_bag",
+      "gloves_fingerless_from patches",
+      "blindfold_from_tape",
+      "glasses_safety",
+      "gloves_fur",
+      "stockings",
+      "gloves_light",
+      "gloves_wraps_leather",
+      "gloves_wraps",
+      "straw_sandals",
+      "gloves_wraps_fur",
+      "mittens",
+      "bandana",
+      "beret_wool",
+      "gloves_wool",
+      "cowboy_hat",
+      "cowl_wool",
+      "socks",
+      "gloves_bag",
+      "gloves_fingerless",
+      "gauntlets_larmor",
+      "blindfold",
+      "gloves_leather",
+      "socks_wool",
+      "gloves_fingerless_mod",
+      "gauntlets_bone",
+      "gauntlets_chitin",
+      "sockmitts",
+      "balclava",
+      "goggles_welding",
+      "hat_boonie",
+      "hat_fur",
+      "hat_hard",
+      "hat_cotton",
+      "hat_hunting",
+      "hat_knit",
+      "goggles_swim",
+      "hat_noise_cancelling",
+      "hat_hard_hooded",
+      "patchwork_scarf",
+      "scarf_fur",
+      "scarf_long",
+      "long_knit_scarf",
+      "keffiyeh",
+      "rebreather_xl_mod_existing",
+      "scarf_fur_long",
+      "long_patchwork_scarf",
+      "knit_scarf",
+      "mask_rioter",
+      "helmet_larmor",
+      "miner_hat",
+      "pot_helmet",
+      "hood_rain",
+      "scarf",
+      "scarf_fur_long_merge_scarves",
+      "tinfoil_hat",
+      "bikini_bottom",
+      "turban",
+      "2byshin_guard",
+      "boxer_briefs",
+      "boxer_shorts",
+      "survivor_goggles",
+      "briefs",
+      "straw_hat",
+      "chaps_leather",
+      "pants_fur",
+      "leg_warmers",
+      "stockings_tent_legs_from_stockings",
+      "sleeping_bag",
+      "down_blanket",
+      "loincloth_fur",
+      "bandolier_rifle",
+      "panties",
+      "long_underpants",
+      "loincloth",
+      "loincloth_leather",
+      "shorts",
+      "shorts_cargo",
+      "shorts_cargo_from_pants",
+      "loincloth_wool",
+      "blanket",
+      "legguard_paper",
+      "survivor_belt",
+      "towel_knitting",
+      "pants_leather",
+      "ammo_satchel",
+      "back_holster",
+      "knee_pads",
+      "shorts_denim",
+      "backpack",
+      "fur_blanket",
+      "stockings_tent_legs",
+      "backpack_leather",
+      "bandolier_pistol",
+      "bandolier_wrist",
+      "bindle",
+      "bootstrap",
+      "bootsheath",
+      "bandolier_shotgun",
+      "chestpouch",
+      "duffelbag",
+      "grenade_pouch",
+      "leather_belt",
+      "jerrypack",
+      "leather_pouch",
+      "flintlock_pouch",
+      "holster",
+      "flintlock_ammo",
+      "armguard_larmor",
+      "flintlock_shot",
+      "2byarm_guard",
+      "arm_warmers",
+      "armguard_bone",
+      "armguard_metal",
+      "armguard_paper",
+      "elbow_pads",
+      "stockings_tent_arms",
+      "stockings_tent_arms_from_stockings",
+      "footrags_fur",
+      "mocassins",
+      "vambrace_larmor",
+      "shoes_birchbark",
+      "boots_bone",
+      "boots_chitin",
+      "boots",
+      "footrags",
+      "boots_fur",
+      "boots_larmor",
+      "bastsandals",
+      "clogs",
+      "footrags_wool",
+      "footrags_leather",
+      "leathersandals",
+      "spear_steel",
+      "nailmag",
+      "firecracker",
+      "firecracker_pack",
+      "molotov",
+      "matchbomb",
+      "nail_bomb",
+      "survivor223mag",
+      "spear_pipe",
+      "pistol_flintlock",
+      "gasbomb_makeshift",
+      "grenade",
+      "nailrifle",
+      "carbine_flintlock_double_from_antiques",
+      "survivor9mm_mag",
+      "acidbomb",
+      "tool_black_powder_bomb",
+      "pipebomb",
+      "smokebomb",
+      "makeshift_knapsack",
+      "chainmail_suit",
+      "sheath",
+      "quiver_large",
+      "ragpouch",
+      "tool_belt",
+      "quiver",
+      "legpouch_large",
+      "makeshift_sling",
+      "armor_scrapsuit",
+      "sholster",
+      "cloak_leather",
+      "straw_basket",
+      "cloak",
+      "legrig",
+      "plastic_shopping_bag",
+      "quiver_birchbark",
+      "quiver_large_birchbark",
+      "legpouch",
+      "survivor_runner_pack",
+      "gambeson",
+      "swag_bag",
+      "shark_suit_faraday",
+      "cloak_fur",
+      "tunic_rag",
+      "cloak_wool",
+      "wool_suit",
+      "apron_leather",
+      "bikini_top_leather",
+      "bra",
+      "flotation_vest_ms",
+      "modularvest",
+      "poncho_knitted",
+      "chestwrap_fur",
+      "coat_fur",
+      "house_coat",
+      "bikini_top_fur",
+      "modularvestceramic",
+      "chestwrap",
+      "chestwrap_wool",
+      "chestwrap_leather",
+      "duster",
+      "hoodie",
+      "longshirt",
+      "modularvesthard",
+      "modularvestsuper",
+      "bookplate",
+      "jacket_leather_mod",
+      "modularveststeel",
+      "poncho",
+      "sleeveless_duster",
+      "duster_fur",
+      "sleeveless_duster_from_duster",
+      "long_undertop",
+      "sleeveless_duster_fur",
+      "modularvestkevlar",
+      "bikini_top",
+      "coat_rain",
+      "sleeveless_trenchcoat_from_trenchcoat",
+      "sleeveless_trenchcoat",
+      "sleeveless_trenchcoat_fur_from_trenchcoat_fur",
+      "sleeveless_trenchcoat_fur",
+      "sleeveless_tunic_cutting",
+      "sleeveless_duster_fur_from_duster_fur",
+      "sleeveless_tunic",
+      "sundress",
+      "tank_top",
+      "trenchcoat",
+      "trenchcoat_fur",
+      "sweater",
+      "tshirt",
+      "tunic",
+      "undershirt",
+      "vest_leather_from_patches",
+      "vodka_from_wash",
+      "dry_mushroom_magic",
+      "seed_buckwheat",
+      "seed_garlic",
+      "denat_alcohol",
+      "vest_leather_mod",
+      "brew_vinegar",
+      "dry_beans",
+      "bone_glue",
+      "dry_meat_tainted",
+      "vest_leather",
+      "battery_ups",
+      "brew_mead",
+      "brandy",
+      "brew_fruit_wine",
+      "dry_fruit",
+      "dry_meat",
+      "dry_mushroom",
+      "dry_veggy_tainted",
+      "protein_powder",
+      "lamp_oil",
+      "magazine_battery_mod",
+      "superglue",
+      "battery_compartment",
+      "brew_milk_curdled",
+      "brew_vodka",
+      "dry_fish",
+      "dry_veggy",
+      "milk_powder",
+      "powder_eggs",
+      "seed_bee_balm",
+      "seed_dogbane",
+      "seed_mugwort",
+      "seed_mushroom",
+      "seed_mushroom_magic",
+      "seed_raw_dandelion",
+      "seed_rhubarb",
+      "seed_mushroom_morel",
+      "seed_mushroom_poison",
+      "seed_thyme",
+      "seed_veggy_wild",
+      "seed_wild_herbs",
+      "keg_steel",
+      "steel_chunk",
+      "steel_lump",
+      "1st_aid",
+      "torch",
+      "jack_makeshift",
+      "makeshift_crowbar",
+      "thyme_oil",
+      "battletorch",
+      "pickaxe",
+      "mugwort_oil",
+      "fish_bait",
+      "crowbar",
+      "bandages",
+      "1st_aid_survivor",
+      "xlframe",
+      "jack_small",
+      "food_processor"
+    ],
+    "items_identified": [
+      "textbook_computer",
+      "decoy_elfa",
+      "textbook_fabrication",
+      "manual_traps",
+      "mag_tailor",
+      "manual_computers",
+      "mag_rifle",
+      "mag_swimming",
+      "mag_launcher",
+      "mag_traps",
+      "adv_chemistry",
+      "brewing_cookbook",
+      "cookbook",
+      "recipe_augs",
+      "manual_carpentry",
+      "pocket_firearms",
+      "textbook_firstaid",
+      "textbook_fireman",
+      "fun_survival",
+      "textbook_survival",
+      "manual_shotgun",
+      "mag_cooking",
+      "modern_tanner",
+      "recipe_arrows",
+      "mag_glam",
+      "mag_computer",
+      "novel_scifi",
+      "cookbook_italian",
+      "textbook_robots",
+      "book_icef",
+      "recipe_bows",
+      "computer_science",
+      "mag_porn",
+      "mag_mechanics",
+      "textbook_weapwest",
+      "mag_fabrication",
+      "textbook_carpentry",
+      "pocket_survival",
+      "manual_fabrication",
+      "manual_fencing",
+      "advanced_electronics",
+      "mag_carpentry",
+      "mag_firstaid",
+      "mag_bashing",
+      "novel_swash",
+      "manual_speech",
+      "101_carpentry",
+      "manual_brawl",
+      "mag_shotgun",
+      "mag_barter",
+      "manual_dodge",
+      "textbook_chemistry",
+      "manual_first_aid",
+      "mag_survival",
+      "textbook_biodiesel",
+      "mag_guns",
+      "carpentry_book",
+      "scots_cookbook",
+      "textbook_gaswarfare",
+      "decoy_anarch",
+      "manual_cutting",
+      "manual_driving",
+      "atomic_survival",
+      "mag_dude",
+      "howto_traps",
+      "mag_stabbing",
+      "manual_smg",
+      "book_archery",
+      "manual_survival",
+      "manual_electronics",
+      "glassblowing_book",
+      "mag_electronics",
+      "emergency_book",
+      "textbook_armeast",
+      "mag_beauty",
+      "mag_cars",
+      "mag_pistol",
+      "mag_unarmed",
+      "textbook_mechanics",
+      "survival_book",
+      "pocket_firstaid",
+      "mag_smg",
+      "textbook_armwest",
+      "radio_book",
+      "manual_mechanics",
+      "mag_throwing",
+      "mag_tv"
+    ],
+    "vitamin_levels": {
+      "calcium": -720,
+      "iron": -720,
+      "vitA": -504,
+      "vitB": -336,
+      "vitC": -336
+    },
+    "morale": [
+      {
+        "type": "morale_food_good",
+        "item_type": "spaghetti_bolognese",
+        "bonus": 12,
+        "duration": 120,
+        "decay_start": 60,
+        "age": 103
+      },
+      {
+        "type": "morale_wet",
+        "bonus": -19,
+        "duration": 5,
+        "decay_start": 5,
+        "age": 0
+      }
+    ],
+    "active_mission": 17,
+    "active_missions": [
+      1,
+      2,
+      17
+    ],
+    "completed_missions": [
+      3,
+      8,
+      14
+    ],
+    "failed_missions": [
+      
+    ],
+    "player_stats": {
+      "squares_walked": 282562,
+      "damage_taken": 6298,
+      "damage_healed": 6269,
+      "headshots": 0
+    },
+    "assigned_invlet": [
+      
+    ],
+    "invcache": [
+      {
+        "101_carpentry": [
+          
+        ]
+      },
+      {
+        "1st_aid": [
+          110
+        ]
+      },
+      {
+        "223": [
+          
+        ]
+      },
+      {
+        "2x4": [
+          
+        ]
+      },
+      {
+        "308_casing": [
+          
+        ]
+      },
+      {
+        "40fmj": [
+          
+        ]
+      },
+      {
+        "40sw": [
+          
+        ]
+      },
+      {
+        "9mmfmj": [
+          
+        ]
+      },
+      {
+        "LAW_Packed": [
+          
+        ]
+      },
+      {
+        "RAM": [
+          
+        ]
+      },
+      {
+        "UPS_off": [
+          
+        ]
+      },
+      {
+        "adv_chemistry": [
+          
+        ]
+      },
+      {
+        "alarmclock": [
+          70
+        ]
+      },
+      {
+        "alternator_truck": [
+          
+        ]
+      },
+      {
+        "ammolink308": [
+          
+        ]
+      },
+      {
+        "amplifier": [
+          
+        ]
+      },
+      {
+        "antenna": [
+          
+        ]
+      },
+      {
+        "antibiotics": [
+          69
+        ]
+      },
+      {
+        "antifungal": [
+          
+        ]
+      },
+      {
+        "arm_splint": [
+          
+        ]
+      },
+      {
+        "army_top": [
+          
+        ]
+      },
+      {
+        "artifact_3308": [
+          
+        ]
+      },
+      {
+        "aspirin": [
+          
+        ]
+      },
+      {
+        "atomic_lamp": [
+          
+        ]
+      },
+      {
+        "atomic_lamp_off": [
+          
+        ]
+      },
+      {
+        "atomic_survival": [
+          
+        ]
+      },
+      {
+        "backpack": [
+          
+        ]
+      },
+      {
+        "bag_plastic": [
+          101,
+          124,
+          125
+        ]
+      },
+      {
+        "bandages": [
+          79
+        ]
+      },
+      {
+        "barrel_big": [
+          
+        ]
+      },
+      {
+        "battery": [
+          
+        ]
+      },
+      {
+        "battery_car": [
+          
+        ]
+      },
+      {
+        "battery_motorbike": [
+          
+        ]
+      },
+      {
+        "battery_ups": [
+          
+        ]
+      },
+      {
+        "battleaxe_inferior": [
+          
+        ]
+      },
+      {
+        "beans_cooked": [
+          
+        ]
+      },
+      {
+        "binoculars": [
+          
+        ]
+      },
+      {
+        "bio_adrenaline": [
+          
+        ]
+      },
+      {
+        "bio_batteries": [
+          
+        ]
+      },
+      {
+        "bio_evap": [
+          
+        ]
+      },
+      {
+        "bio_faraday": [
+          
+        ]
+      },
+      {
+        "bio_heatsink": [
+          
+        ]
+      },
+      {
+        "bio_infrared": [
+          
+        ]
+      },
+      {
+        "bio_leukocyte": [
+          
+        ]
+      },
+      {
+        "bio_metabolics": [
+          
+        ]
+      },
+      {
+        "bio_power_storage": [
+          
+        ]
+      },
+      {
+        "bio_power_storage_mkII": [
+          
+        ]
+      },
+      {
+        "bio_radscrubber": [
+          
+        ]
+      },
+      {
+        "bio_solar": [
+          
+        ]
+      },
+      {
+        "bio_str_enhancer": [
+          
+        ]
+      },
+      {
+        "bio_torsionratchet": [
+          
+        ]
+      },
+      {
+        "bio_ups": [
+          
+        ]
+      },
+      {
+        "blueberries": [
+          
+        ]
+      },
+      {
+        "bologna": [
+          
+        ]
+      },
+      {
+        "boltcutters": [
+          
+        ]
+      },
+      {
+        "bone": [
+          
+        ]
+      },
+      {
+        "book_archery": [
+          
+        ]
+      },
+      {
+        "book_icef": [
+          
+        ]
+      },
+      {
+        "boots": [
+          
+        ]
+      },
+      {
+        "boots_combat": [
+          102
+        ]
+      },
+      {
+        "boots_steel": [
+          
+        ]
+      },
+      {
+        "bottle_glass": [
+          61
+        ]
+      },
+      {
+        "bottle_plastic": [
+          
+        ]
+      },
+      {
+        "bottle_plastic_small": [
+          
+        ]
+      },
+      {
+        "bowl_plastic": [
+          
+        ]
+      },
+      {
+        "box_small": [
+          
+        ]
+      },
+      {
+        "boxer_shorts": [
+          100
+        ]
+      },
+      {
+        "bread": [
+          
+        ]
+      },
+      {
+        "breeches": [
+          
+        ]
+      },
+      {
+        "brewing_cookbook": [
+          
+        ]
+      },
+      {
+        "brick_kiln": [
+          
+        ]
+      },
+      {
+        "briefs": [
+          
+        ]
+      },
+      {
+        "broken_copbot": [
+          
+        ]
+      },
+      {
+        "broken_riotbot": [
+          
+        ]
+      },
+      {
+        "browning_blr": [
+          
+        ]
+      },
+      {
+        "burnt_out_bionic": [
+          
+        ]
+      },
+      {
+        "cable": [
+          
+        ]
+      },
+      {
+        "calcium_tablet": [
+          
+        ]
+      },
+      {
+        "camera": [
+          
+        ]
+      },
+      {
+        "camera_control": [
+          
+        ]
+      },
+      {
+        "camisole": [
+          
+        ]
+      },
+      {
+        "can_cheese": [
+          
+        ]
+      },
+      {
+        "can_drink": [
+          114
+        ]
+      },
+      {
+        "can_drink_unsealed": [
+          
+        ]
+      },
+      {
+        "can_food": [
+          35,
+          91
+        ]
+      },
+      {
+        "can_food_unsealed": [
+          
+        ]
+      },
+      {
+        "canteen": [
+          
+        ]
+      },
+      {
+        "cargo_rack": [
+          
+        ]
+      },
+      {
+        "carpentry_book": [
+          
+        ]
+      },
+      {
+        "cash_card": [
+          66,
+          64,
+          82
+        ]
+      },
+      {
+        "cell_phone": [
+          
+        ]
+      },
+      {
+        "ceramic_cup": [
+          
+        ]
+      },
+      {
+        "chainmail_arms": [
+          
+        ]
+      },
+      {
+        "charcoal": [
+          
+        ]
+      },
+      {
+        "cheeseburger": [
+          
+        ]
+      },
+      {
+        "chemistry_set": [
+          
+        ]
+      },
+      {
+        "chemlab": [
+          
+        ]
+      },
+      {
+        "chestrig": [
+          
+        ]
+      },
+      {
+        "chili_pepper": [
+          
+        ]
+      },
+      {
+        "chilidogs": [
+          
+        ]
+      },
+      {
+        "chocolate": [
+          
+        ]
+      },
+      {
+        "cig_butt": [
+          
+        ]
+      },
+      {
+        "circuit": [
+          
+        ]
+      },
+      {
+        "clay_lump": [
+          
+        ]
+      },
+      {
+        "clay_quern": [
+          
+        ]
+      },
+      {
+        "clay_watercont": [
+          
+        ]
+      },
+      {
+        "clock": [
+          
+        ]
+      },
+      {
+        "coat_rain": [
+          
+        ]
+      },
+      {
+        "coffeemaker": [
+          
+        ]
+      },
+      {
+        "computer_science": [
+          
+        ]
+      },
+      {
+        "con_mix": [
+          
+        ]
+      },
+      {
+        "cookbook": [
+          
+        ]
+      },
+      {
+        "cookbook_italian": [
+          
+        ]
+      },
+      {
+        "cooked_pumpkin": [
+          
+        ]
+      },
+      {
+        "cordless_drill": [
+          
+        ]
+      },
+      {
+        "cornbread": [
+          
+        ]
+      },
+      {
+        "corpse": [
+          
+        ]
+      },
+      {
+        "cotton_boll": [
+          
+        ]
+      },
+      {
+        "crack": [
+          
+        ]
+      },
+      {
+        "cracklins": [
+          
+        ]
+      },
+      {
+        "crowbar": [
+          117
+        ]
+      },
+      {
+        "cu_pipe": [
+          
+        ]
+      },
+      {
+        "cup_plastic": [
+          
+        ]
+      },
+      {
+        "cup_plastic_unsealed": [
+          
+        ]
+      },
+      {
+        "cured_hide": [
+          
+        ]
+      },
+      {
+        "cured_pelt": [
+          
+        ]
+      },
+      {
+        "deaglemag": [
+          
+        ]
+      },
+      {
+        "dehydrator": [
+          
+        ]
+      },
+      {
+        "deluxe_beans": [
+          
+        ]
+      },
+      {
+        "deluxe_veggy_beans": [
+          
+        ]
+      },
+      {
+        "diazepam": [
+          
+        ]
+      },
+      {
+        "drive_by_wire_controls": [
+          
+        ]
+      },
+      {
+        "drivebelt": [
+          
+        ]
+      },
+      {
+        "duct_tape": [
+          58
+        ]
+      },
+      {
+        "duffelbag": [
+          
+        ]
+      },
+      {
+        "duster": [
+          
+        ]
+      },
+      {
+        "e_scrap": [
+          
+        ]
+      },
+      {
+        "ear_plugs": [
+          
+        ]
+      },
+      {
+        "electric_lantern": [
+          
+        ]
+      },
+      {
+        "electrohack": [
+          109
+        ]
+      },
+      {
+        "element": [
+          123
+        ]
+      },
+      {
+        "emergency_book": [
+          
+        ]
+      },
+      {
+        "extinguisher": [
+          
+        ]
+      },
+      {
+        "eyedrops": [
+          
+        ]
+      },
+      {
+        "fat": [
+          
+        ]
+      },
+      {
+        "filter_liquid": [
+          
+        ]
+      },
+      {
+        "fire_drill_large": [
+          104
+        ]
+      },
+      {
+        "fire_gauntlets": [
+          
+        ]
+      },
+      {
+        "fish": [
+          
+        ]
+      },
+      {
+        "fishing_rod_professional": [
+          
+        ]
+      },
+      {
+        "flamethrower_crude": [
+          
+        ]
+      },
+      {
+        "flaregun": [
+          
+        ]
+      },
+      {
+        "flashlight": [
+          
+        ]
+      },
+      {
+        "flour": [
+          
+        ]
+      },
+      {
+        "food_processor": [
+          
+        ]
+      },
+      {
+        "forge": [
+          
+        ]
+      },
+      {
+        "forgerig": [
+          
+        ]
+      },
+      {
+        "frame": [
+          
+        ]
+      },
+      {
+        "fruit_leather": [
+          
+        ]
+      },
+      {
+        "fun_survival": [
+          
+        ]
+      },
+      {
+        "fungicide": [
+          
+        ]
+      },
+      {
+        "funnel": [
+          
+        ]
+      },
+      {
+        "fur": [
+          
+        ]
+      },
+      {
+        "glass": [
+          
+        ]
+      },
+      {
+        "glass_bowl": [
+          
+        ]
+      },
+      {
+        "glass_sheet": [
+          
+        ]
+      },
+      {
+        "glassblowing_book": [
+          
+        ]
+      },
+      {
+        "glasses_bal": [
+          
+        ]
+      },
+      {
+        "glasses_safety": [
+          
+        ]
+      },
+      {
+        "glock40bigmag": [
+          
+        ]
+      },
+      {
+        "glock40mag": [
+          
+        ]
+      },
+      {
+        "glock_19": [
+          
+        ]
+      },
+      {
+        "glock_22": [
+          
+        ]
+      },
+      {
+        "glockmag": [
+          
+        ]
+      },
+      {
+        "gloves_leather": [
+          
+        ]
+      },
+      {
+        "gloves_rubber": [
+          
+        ]
+      },
+      {
+        "gloves_tactical": [
+          
+        ]
+      },
+      {
+        "gloves_winter": [
+          
+        ]
+      },
+      {
+        "gobag": [
+          
+        ]
+      },
+      {
+        "goggles_swim": [
+          
+        ]
+      },
+      {
+        "goggles_welding": [
+          
+        ]
+      },
+      {
+        "granola": [
+          
+        ]
+      },
+      {
+        "grenade": [
+          78
+        ]
+      },
+      {
+        "gum": [
+          
+        ]
+      },
+      {
+        "gummy_vitamins": [
+          
+        ]
+      },
+      {
+        "hacksaw": [
+          
+        ]
+      },
+      {
+        "haggis": [
+          
+        ]
+      },
+      {
+        "hamburger": [
+          
+        ]
+      },
+      {
+        "handflare": [
+          
+        ]
+      },
+      {
+        "hardtack": [
+          
+        ]
+      },
+      {
+        "hatchet": [
+          
+        ]
+      },
+      {
+        "hdframe": [
+          
+        ]
+      },
+      {
+        "headlight_reinforced": [
+          
+        ]
+      },
+      {
+        "heatpack": [
+          
+        ]
+      },
+      {
+        "heavy_flashlight": [
+          107,
+          115
+        ]
+      },
+      {
+        "helmet_army": [
+          
+        ]
+      },
+      {
+        "holy_symbol": [
+          94
+        ]
+      },
+      {
+        "honeycomb": [
+          
+        ]
+      },
+      {
+        "hood_rain": [
+          
+        ]
+      },
+      {
+        "hoodie": [
+          
+        ]
+      },
+      {
+        "hops": [
+          
+        ]
+      },
+      {
+        "hose": [
+          38
+        ]
+      },
+      {
+        "hotdogs_campfire": [
+          
+        ]
+      },
+      {
+        "id_military": [
+          40
+        ]
+      },
+      {
+        "id_science": [
+          119
+        ]
+      },
+      {
+        "inhaler": [
+          
+        ]
+      },
+      {
+        "iodine": [
+          
+        ]
+      },
+      {
+        "it_battery_mount": [
+          
+        ]
+      },
+      {
+        "jack": [
+          33
+        ]
+      },
+      {
+        "jack_makeshift": [
+          
+        ]
+      },
+      {
+        "jack_small": [
+          
+        ]
+      },
+      {
+        "jacket_army": [
+          81
+        ]
+      },
+      {
+        "jacket_jean": [
+          
+        ]
+      },
+      {
+        "jacket_leather": [
+          
+        ]
+      },
+      {
+        "jacket_light": [
+          
+        ]
+      },
+      {
+        "jar_3l_glass": [
+          
+        ]
+      },
+      {
+        "jar_3l_glass_sealed": [
+          
+        ]
+      },
+      {
+        "jar_glass": [
+          
+        ]
+      },
+      {
+        "jar_glass_sealed": [
+          
+        ]
+      },
+      {
+        "jerky": [
+          
+        ]
+      },
+      {
+        "jerrycan": [
+          
+        ]
+      },
+      {
+        "jian_inferior": [
+          
+        ]
+      },
+      {
+        "johnnycake": [
+          
+        ]
+      },
+      {
+        "judo_belt_white": [
+          
+        ]
+      },
+      {
+        "judo_gi": [
+          
+        ]
+      },
+      {
+        "jug_plastic": [
+          47
+        ]
+      },
+      {
+        "juice_pulp": [
+          
+        ]
+      },
+      {
+        "jumper_cable": [
+          
+        ]
+      },
+      {
+        "jumpsuit": [
+          
+        ]
+      },
+      {
+        "karate_gi": [
+          
+        ]
+      },
+      {
+        "katana_inferior": [
+          
+        ]
+      },
+      {
+        "keg": [
+          
+        ]
+      },
+      {
+        "kevlar": [
+          
+        ]
+      },
+      {
+        "kevlar_plate": [
+          
+        ]
+      },
+      {
+        "kitchen_unit": [
+          
+        ]
+      },
+      {
+        "knife_trench": [
+          
+        ]
+      },
+      {
+        "kukri": [
+          
+        ]
+      },
+      {
+        "l_def_12": [
+          
+        ]
+      },
+      {
+        "l_long_45": [
+          
+        ]
+      },
+      {
+        "l_mbr_223": [
+          
+        ]
+      },
+      {
+        "lard": [
+          
+        ]
+      },
+      {
+        "large_stomach_sealed": [
+          74
+        ]
+      },
+      {
+        "leather": [
+          
+        ]
+      },
+      {
+        "leather_belt": [
+          
+        ]
+      },
+      {
+        "lens": [
+          
+        ]
+      },
+      {
+        "lighter": [
+          68
+        ]
+      },
+      {
+        "long_underpants": [
+          
+        ]
+      },
+      {
+        "longshirt": [
+          
+        ]
+      },
+      {
+        "m1014": [
+          
+        ]
+      },
+      {
+        "m107a1": [
+          
+        ]
+      },
+      {
+        "m14mag": [
+          
+        ]
+      },
+      {
+        "m14smallmag": [
+          
+        ]
+      },
+      {
+        "m240": [
+          
+        ]
+      },
+      {
+        "m9": [
+          
+        ]
+      },
+      {
+        "mag_bashing": [
+          
+        ]
+      },
+      {
+        "mag_cooking": [
+          
+        ]
+      },
+      {
+        "mag_electronics": [
+          
+        ]
+      },
+      {
+        "mag_firstaid": [
+          
+        ]
+      },
+      {
+        "mag_guns": [
+          
+        ]
+      },
+      {
+        "mag_pistol": [
+          
+        ]
+      },
+      {
+        "mag_survival": [
+          
+        ]
+      },
+      {
+        "mag_tailor": [
+          
+        ]
+      },
+      {
+        "mag_traps": [
+          
+        ]
+      },
+      {
+        "mag_unarmed": [
+          
+        ]
+      },
+      {
+        "magazine_battery_mod": [
+          
+        ]
+      },
+      {
+        "manual_brawl": [
+          
+        ]
+      },
+      {
+        "manual_computers": [
+          
+        ]
+      },
+      {
+        "manual_fencing": [
+          
+        ]
+      },
+      {
+        "manual_first_aid": [
+          
+        ]
+      },
+      {
+        "manual_mechanics": [
+          
+        ]
+      },
+      {
+        "manual_survival": [
+          
+        ]
+      },
+      {
+        "manual_traps": [
+          
+        ]
+      },
+      {
+        "mask_bunker": [
+          
+        ]
+      },
+      {
+        "mask_dust": [
+          
+        ]
+      },
+      {
+        "matches": [
+          87
+        ]
+      },
+      {
+        "meat": [
+          92,
+          93,
+          95,
+          67,
+          71,
+          77,
+          83,
+          84,
+          89,
+          90,
+          34,
+          41
+        ]
+      },
+      {
+        "meat_aspic": [
+          
+        ]
+      },
+      {
+        "meat_cooked": [
+          
+        ]
+      },
+      {
+        "metal_tank": [
+          
+        ]
+      },
+      {
+        "meth": [
+          
+        ]
+      },
+      {
+        "microwave": [
+          
+        ]
+      },
+      {
+        "mil_plate": [
+          
+        ]
+      },
+      {
+        "milk_powder": [
+          
+        ]
+      },
+      {
+        "minifridge": [
+          
+        ]
+      },
+      {
+        "minireactor": [
+          
+        ]
+      },
+      {
+        "misc_repairkit": [
+          98
+        ]
+      },
+      {
+        "mittens": [
+          
+        ]
+      },
+      {
+        "modern_tanner": [
+          
+        ]
+      },
+      {
+        "mold_plastic": [
+          
+        ]
+      },
+      {
+        "morphine": [
+          
+        ]
+      },
+      {
+        "motor": [
+          
+        ]
+      },
+      {
+        "motor_large": [
+          
+        ]
+      },
+      {
+        "motor_small": [
+          
+        ]
+      },
+      {
+        "mp3": [
+          
+        ]
+      },
+      {
+        "mre_chicken_box": [
+          
+        ]
+      },
+      {
+        "mre_ravioli_box": [
+          
+        ]
+      },
+      {
+        "muffler": [
+          
+        ]
+      },
+      {
+        "multi_cooker": [
+          
+        ]
+      },
+      {
+        "mushroom_poison": [
+          
+        ]
+      },
+      {
+        "nail": [
+          
+        ]
+      },
+      {
+        "offal": [
+          65
+        ]
+      },
+      {
+        "omnicamera": [
+          
+        ]
+      },
+      {
+        "oxy_powder": [
+          
+        ]
+      },
+      {
+        "oxylamp": [
+          
+        ]
+      },
+      {
+        "pan": [
+          
+        ]
+      },
+      {
+        "panties": [
+          
+        ]
+      },
+      {
+        "pants": [
+          
+        ]
+      },
+      {
+        "pants_army": [
+          80
+        ]
+      },
+      {
+        "pants_cargo": [
+          
+        ]
+      },
+      {
+        "pants_leather": [
+          
+        ]
+      },
+      {
+        "paper": [
+          
+        ]
+      },
+      {
+        "peach": [
+          
+        ]
+      },
+      {
+        "pear": [
+          
+        ]
+      },
+      {
+        "pelmeni": [
+          
+        ]
+      },
+      {
+        "pet_carrier": [
+          
+        ]
+      },
+      {
+        "pickle": [
+          
+        ]
+      },
+      {
+        "pie": [
+          
+        ]
+      },
+      {
+        "pine_bough": [
+          
+        ]
+      },
+      {
+        "pipe": [
+          
+        ]
+      },
+      {
+        "pipe_double_shotgun": [
+          
+        ]
+      },
+      {
+        "pizza_meat": [
+          
+        ]
+      },
+      {
+        "pizza_veggy": [
+          
+        ]
+      },
+      {
+        "plastic_chunk": [
+          
+        ]
+      },
+      {
+        "pliers": [
+          
+        ]
+      },
+      {
+        "plut_cell": [
+          
+        ]
+      },
+      {
+        "pocket_firearms": [
+          
+        ]
+      },
+      {
+        "pocket_firstaid": [
+          
+        ]
+      },
+      {
+        "pocket_survival": [
+          
+        ]
+      },
+      {
+        "pockknife": [
+          120
+        ]
+      },
+      {
+        "popcan_stove": [
+          
+        ]
+      },
+      {
+        "poppy_bud": [
+          
+        ]
+      },
+      {
+        "poppy_pain": [
+          76
+        ]
+      },
+      {
+        "pot": [
+          
+        ]
+      },
+      {
+        "pot_copper": [
+          
+        ]
+      },
+      {
+        "powder_candy": [
+          
+        ]
+      },
+      {
+        "power_supply": [
+          
+        ]
+      },
+      {
+        "press": [
+          
+        ]
+      },
+      {
+        "primitive_shovel": [
+          
+        ]
+      },
+      {
+        "processor": [
+          
+        ]
+      },
+      {
+        "prozac": [
+          
+        ]
+      },
+      {
+        "prussian_blue": [
+          
+        ]
+      },
+      {
+        "pumpkin": [
+          
+        ]
+      },
+      {
+        "punch_dagger": [
+          
+        ]
+      },
+      {
+        "pur_tablets": [
+          
+        ]
+      },
+      {
+        "purse": [
+          
+        ]
+      },
+      {
+        "rad_monitor": [
+          
+        ]
+      },
+      {
+        "radio": [
+          
+        ]
+      },
+      {
+        "rag": [
+          
+        ]
+      },
+      {
+        "raw_dandelion": [
+          
+        ]
+      },
+      {
+        "raw_fur": [
+          
+        ]
+      },
+      {
+        "raw_leather": [
+          
+        ]
+      },
+      {
+        "receiver": [
+          
+        ]
+      },
+      {
+        "recharge_station": [
+          
+        ]
+      },
+      {
+        "recipe_arrows": [
+          
+        ]
+      },
+      {
+        "recipe_bows": [
+          
+        ]
+      },
+      {
+        "red_dot_sight": [
+          
+        ]
+      },
+      {
+        "reflexrecurvebow": [
+          
+        ]
+      },
+      {
+        "reinforced_glass_sheet": [
+          
+        ]
+      },
+      {
+        "reloaded_22_lr": [
+          
+        ]
+      },
+      {
+        "reloaded_308": [
+          
+        ]
+      },
+      {
+        "reloaded_45_jhp": [
+          
+        ]
+      },
+      {
+        "reloaded_46mm": [
+          
+        ]
+      },
+      {
+        "reloaded_9x18mm": [
+          
+        ]
+      },
+      {
+        "reloaded_shot_bird": [
+          
+        ]
+      },
+      {
+        "remington_870": [
+          
+        ]
+      },
+      {
+        "rice_cooked": [
+          
+        ]
+      },
+      {
+        "rifle_9mm": [
+          
+        ]
+      },
+      {
+        "rm120c": [
+          
+        ]
+      },
+      {
+        "rm13_armor": [
+          
+        ]
+      },
+      {
+        "rm360_carbine": [
+          
+        ]
+      },
+      {
+        "rm51_assault_rifle": [
+          
+        ]
+      },
+      {
+        "robot_controls": [
+          
+        ]
+      },
+      {
+        "rock": [
+          
+        ]
+      },
+      {
+        "rollmat": [
+          
+        ]
+      },
+      {
+        "rope_6": [
+          
+        ]
+      },
+      {
+        "royal_jelly": [
+          
+        ]
+      },
+      {
+        "rucksack": [
+          
+        ]
+      },
+      {
+        "rx11_stimpack": [
+          
+        ]
+      },
+      {
+        "salted_fish": [
+          
+        ]
+      },
+      {
+        "sandwich_cheese": [
+          
+        ]
+      },
+      {
+        "sandwich_deluxe": [
+          
+        ]
+      },
+      {
+        "sandwich_sauce": [
+          
+        ]
+      },
+      {
+        "sandwich_t": [
+          
+        ]
+      },
+      {
+        "sandwich_veggy": [
+          
+        ]
+      },
+      {
+        "sausage": [
+          43
+        ]
+      },
+      {
+        "scarf": [
+          
+        ]
+      },
+      {
+        "scots_cookbook": [
+          
+        ]
+      },
+      {
+        "scrap": [
+          
+        ]
+      },
+      {
+        "scrap_copper": [
+          
+        ]
+      },
+      {
+        "seat": [
+          
+        ]
+      },
+      {
+        "seed_blackberries": [
+          
+        ]
+      },
+      {
+        "seed_blueberries": [
+          
+        ]
+      },
+      {
+        "seed_cabbage": [
+          
+        ]
+      },
+      {
+        "seed_celery": [
+          
+        ]
+      },
+      {
+        "seed_chili_pepper": [
+          
+        ]
+      },
+      {
+        "seed_cotton_boll": [
+          
+        ]
+      },
+      {
+        "seed_lettuce": [
+          
+        ]
+      },
+      {
+        "seed_mushroom_poison": [
+          
+        ]
+      },
+      {
+        "seed_onion": [
+          
+        ]
+      },
+      {
+        "seed_sugar_beet": [
+          
+        ]
+      },
+      {
+        "seed_sunflower": [
+          
+        ]
+      },
+      {
+        "seed_tomato": [
+          
+        ]
+      },
+      {
+        "seed_wheat": [
+          
+        ]
+      },
+      {
+        "sewing_kit": [
+          122
+        ]
+      },
+      {
+        "shavingkit": [
+          
+        ]
+      },
+      {
+        "sheet_metal": [
+          
+        ]
+      },
+      {
+        "sheet_metal_lit": [
+          
+        ]
+      },
+      {
+        "shot_00": [
+          
+        ]
+      },
+      {
+        "shot_bird": [
+          
+        ]
+      },
+      {
+        "shot_scrap": [
+          
+        ]
+      },
+      {
+        "shovel": [
+          
+        ]
+      },
+      {
+        "sig552": [
+          
+        ]
+      },
+      {
+        "sig_mosquito": [
+          
+        ]
+      },
+      {
+        "sinew": [
+          
+        ]
+      },
+      {
+        "skirt": [
+          
+        ]
+      },
+      {
+        "sleeping_bag": [
+          
+        ]
+      },
+      {
+        "sloppyjoe": [
+          
+        ]
+      },
+      {
+        "sm_extinguisher": [
+          
+        ]
+      },
+      {
+        "small_storage_battery": [
+          
+        ]
+      },
+      {
+        "smoxygen_tank": [
+          
+        ]
+      },
+      {
+        "sneakers": [
+          
+        ]
+      },
+      {
+        "socks": [
+          
+        ]
+      },
+      {
+        "solar_cell": [
+          
+        ]
+      },
+      {
+        "solar_panel": [
+          
+        ]
+      },
+      {
+        "solar_panel_v2": [
+          
+        ]
+      },
+      {
+        "solder_wire": [
+          
+        ]
+      },
+      {
+        "soldering_iron": [
+          73
+        ]
+      },
+      {
+        "spaghetti_bolognese": [
+          
+        ]
+      },
+      {
+        "spaghetti_cooked": [
+          
+        ]
+      },
+      {
+        "spiked_plate": [
+          
+        ]
+      },
+      {
+        "spring": [
+          
+        ]
+      },
+      {
+        "steel_chunk": [
+          
+        ]
+      },
+      {
+        "steel_lump": [
+          
+        ]
+      },
+      {
+        "steel_plate": [
+          
+        ]
+      },
+      {
+        "stethoscope": [
+          86
+        ]
+      },
+      {
+        "stick": [
+          
+        ]
+      },
+      {
+        "stomach": [
+          
+        ]
+      },
+      {
+        "stomach_large": [
+          
+        ]
+      },
+      {
+        "storage_battery": [
+          
+        ]
+      },
+      {
+        "straw_hat": [
+          
+        ]
+      },
+      {
+        "straw_pile": [
+          
+        ]
+      },
+      {
+        "strawberries": [
+          
+        ]
+      },
+      {
+        "string_36": [
+          
+        ]
+      },
+      {
+        "sugar_beet": [
+          
+        ]
+      },
+      {
+        "sunglasses": [
+          
+        ]
+      },
+      {
+        "superglue": [
+          
+        ]
+      },
+      {
+        "suppressor_compact": [
+          
+        ]
+      },
+      {
+        "survival_book": [
+          
+        ]
+      },
+      {
+        "survivor_mess_kit": [
+          113
+        ]
+      },
+      {
+        "sw_619": [
+          
+        ]
+      },
+      {
+        "sweater": [
+          
+        ]
+      },
+      {
+        "sweetbread": [
+          
+        ]
+      },
+      {
+        "tailors_kit": [
+          46
+        ]
+      },
+      {
+        "tanning_pelt": [
+          
+        ]
+      },
+      {
+        "tazer": [
+          
+        ]
+      },
+      {
+        "tec9": [
+          
+        ]
+      },
+      {
+        "technician_pants_gray": [
+          
+        ]
+      },
+      {
+        "technician_pants_ltblue": [
+          
+        ]
+      },
+      {
+        "television": [
+          
+        ]
+      },
+      {
+        "textbook_armeast": [
+          
+        ]
+      },
+      {
+        "textbook_armwest": [
+          
+        ]
+      },
+      {
+        "textbook_chemistry": [
+          
+        ]
+      },
+      {
+        "textbook_computer": [
+          
+        ]
+      },
+      {
+        "textbook_fabrication": [
+          
+        ]
+      },
+      {
+        "textbook_fireman": [
+          
+        ]
+      },
+      {
+        "textbook_firstaid": [
+          
+        ]
+      },
+      {
+        "textbook_gaswarfare": [
+          
+        ]
+      },
+      {
+        "textbook_mechanics": [
+          
+        ]
+      },
+      {
+        "textbook_robots": [
+          
+        ]
+      },
+      {
+        "textbook_survival": [
+          
+        ]
+      },
+      {
+        "textbook_weapwest": [
+          
+        ]
+      },
+      {
+        "thorazine": [
+          
+        ]
+      },
+      {
+        "thread": [
+          
+        ]
+      },
+      {
+        "tomato": [
+          
+        ]
+      },
+      {
+        "tongs": [
+          
+        ]
+      },
+      {
+        "toolbox": [
+          118
+        ]
+      },
+      {
+        "towel": [
+          
+        ]
+      },
+      {
+        "transponder": [
+          
+        ]
+      },
+      {
+        "tshirt": [
+          
+        ]
+      },
+      {
+        "two_way_radio": [
+          
+        ]
+      },
+      {
+        "umbrella": [
+          
+        ]
+      },
+      {
+        "under_armor": [
+          
+        ]
+      },
+      {
+        "uzimag": [
+          
+        ]
+      },
+      {
+        "v_planter_item_advanced": [
+          
+        ]
+      },
+      {
+        "vac_sealer": [
+          
+        ]
+      },
+      {
+        "veggy_aspic": [
+          
+        ]
+      },
+      {
+        "veggy_salad": [
+          
+        ]
+      },
+      {
+        "vest": [
+          
+        ]
+      },
+      {
+        "vitamins": [
+          
+        ]
+      },
+      {
+        "waistcoat": [
+          
+        ]
+      },
+      {
+        "water_faucet": [
+          
+        ]
+      },
+      {
+        "water_purifier": [
+          
+        ]
+      },
+      {
+        "welder": [
+          121
+        ]
+      },
+      {
+        "weldrig": [
+          
+        ]
+      },
+      {
+        "wetsuit_gloves": [
+          
+        ]
+      },
+      {
+        "wheat": [
+          
+        ]
+      },
+      {
+        "wheel_armor": [
+          
+        ]
+      },
+      {
+        "wheel_wide": [
+          
+        ]
+      },
+      {
+        "winter_gloves_army": [
+          
+        ]
+      },
+      {
+        "winter_pants_army": [
+          
+        ]
+      },
+      {
+        "withered": [
+          
+        ]
+      },
+      {
+        "wrapper": [
+          59
+        ]
+      },
+      {
+        "wristwatch": [
+          
+        ]
+      },
+      {
+        "yeast": [
+          
+        ]
+      },
+      {
+        "zucchini": [
+          
+        ]
+      },
+      {
+        "zweifire_off": [
+          112
+        ]
+      },
+      {
+        "zweihander": [
+          
+        ]
+      },
+      {
+        "zweihander_inferior": [
+          
+        ]
+      }
+    ]
+  },
+  "player_messages": {
+    "messages": [
+      {
+        "turn": 2096905,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096905,
+        "message": "Tom Hooper 敲击 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096905,
+        "message": "变异鼠 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096906,
+        "message": "Tom Hooper 闪避了 变异鼠 的攻击。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096906,
+        "message": "Tom Hooper 胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096907,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096907,
+        "message": "Tom Hooper 用他的 <color_yellow>|\\ </color>钢管 格挡了 一些 的伤害！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096907,
+        "message": "变异鼠 击中了 Tom Hooper的 的 左腿。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096907,
+        "message": "Tom Hooper 胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096908,
+        "message": "Tom Hooper 用他的 <color_yellow>|\\ </color>钢管 格挡了 一些 的伤害！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096908,
+        "message": "变异鼠 击中了 Tom Hooper的 的 左腿。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096908,
+        "message": "Tom Hooper 胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096909,
+        "message": "变异鼠 弹开了 变异鼠！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096909,
+        "message": "你造成 变异鼠 晕眩 造成 116 点伤害。暴击！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096909,
+        "message": "你烧灼 变异鼠。\n",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096909,
+        "message": "变异鼠 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096910,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096910,
+        "message": "Tom Hooper 敲击 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096910,
+        "message": "变异鼠 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096912,
+        "message": "你在这里看到 1 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096913,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096915,
+        "message": "你在这里看到 2 划痕的 变异鼠 的尸体 和 1 损坏的 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096915,
+        "message": "你躯干的累赘值过高，令你战斗时无法保持平衡。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096915,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096916,
+        "message": "Tom Hooper 敲击 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096916,
+        "message": "变异鼠 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096917,
+        "message": "你在这里看到 1 损坏的 变异鼠 的尸体，1 划痕的 变异鼠 的尸体 和 1 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096920,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096923,
+        "message": "你斩击 变异鼠 造成 95 点伤害。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096923,
+        "message": "你烧灼 变异鼠。\n",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096923,
+        "message": "变异鼠 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096925,
+        "message": "Die Flamme deines Schwertes erlischt.（德语：剑刃上的烈焰熄灭了。）",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096928,
+        "message": "这里有个 石质地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096928,
+        "message": "你捡起：1 肉块 （新鲜） [\\]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096930,
+        "message": "Your adrenaline rush wears off.  You feel AWFUL!",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2096933,
+        "message": "你在这里看到 1 损坏的 变异鼠 的尸体，1 划痕的 变异鼠 的尸体 和 1 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2096957,
+        "message": "你收获了一些可用的骨头！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096957,
+        "message": "你收获了 变异鼠 的外皮！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096957,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096957,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096979,
+        "message": "这对你来说轻而易举，对把 生存 技能练过 8 级没有任何帮助。",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2096979,
+        "message": "你收获了一些可用的骨头！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096979,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2096979,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097001,
+        "message": "这对你来说轻而易举，对把 生存 技能练过 8 级没有任何帮助。",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097001,
+        "message": "你收获了一些可用的骨头！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097001,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097001,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097003,
+        "message": "这里有个 石质地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097003,
+        "message": "你捡起：2 肉块 （新鲜） []]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097004,
+        "message": "你捡起：2 肉块 （新鲜） [_]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097005,
+        "message": "你捡起：1 生内脏 （新鲜） [A]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097006,
+        "message": "你捡起：1 肉块 （新鲜） [C]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097007,
+        "message": "你在这里看到 3 骨头 和 1 生毛皮 （新鲜）。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097008,
+        "message": "你在这里看到 2 划痕的 变异鼠 的尸体 和 1 损坏的 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097011,
+        "message": "这里有个 石质地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097011,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097011,
+        "message": "你在这里看到 2 划痕的 变异鼠 的尸体 和 1 损坏的 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097035,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097035,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097057,
+        "message": "你收获了一些可用的骨头！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097057,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097057,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097079,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097079,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097081,
+        "message": "这里有个 石质地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097081,
+        "message": "你捡起：2 肉块 （新鲜） [G]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097082,
+        "message": "你捡起：1 肉块 （新鲜） [M]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097083,
+        "message": "你捡起：2 肉块 （新鲜） [S]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097083,
+        "message": "你在这里看到 1 骨头 和 1 生内脏 （新鲜）。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097095,
+        "message": "你在这里看到 1 骨头 和 1 生内脏 （新鲜）。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097098,
+        "message": "你在这里看到 1 损坏的 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097119,
+        "message": "你收获了一些可用的骨头！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097119,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097119,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097121,
+        "message": "你在这里看到 1 变异鼠 的尸体。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097142,
+        "message": "这对你来说轻而易举，对把 生存 技能练过 8 级没有任何帮助。",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097142,
+        "message": "你收获了一些可用的骨头！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097142,
+        "message": "你收获了一些肉。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097142,
+        "message": "你屠宰了 变异鼠。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097144,
+        "message": "这里有个 石质地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097144,
+        "message": "你捡起：2 肉块 （新鲜） [T]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097145,
+        "message": "你在这里看到 1 骨头 和 2 肉块 （新鲜）。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097147,
+        "message": "这里有个 石质地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097147,
+        "message": "你捡起：2 肉块 （新鲜） [Y]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097148,
+        "message": "你在这里看到 1 骨头。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097151,
+        "message": "你在这里看到 1 肉块 （新鲜）。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097153,
+        "message": "你捡起：1 肉块 （新鲜） [Z]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097156,
+        "message": "你在这里看到 1 肉块 （新鲜）。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097158,
+        "message": "你捡起：1 肉块 （新鲜） [\"]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097164,
+        "message": "你放慢脚步，移动到桌子 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097166,
+        "message": "你放慢脚步，移动出桌子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097173,
+        "message": "你在这里看到 1 肉块 （新鲜）。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097174,
+        "message": "你捡起：1 肉块 （新鲜） [)]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097182,
+        "message": "你放慢脚步，移动到桌子 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097184,
+        "message": "你放慢脚步，移动出桌子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097203,
+        "message": "这里有个 书柜。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097203,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097211,
+        "message": "你放慢脚步，移动到桌子 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097213,
+        "message": "你放慢脚步，移动出桌子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097224,
+        "message": "你在这里看到 1 骨头。",
+        "count": 2,
+        "type": 5
+      },
+      {
+        "turn": 2097238,
+        "message": "你关闭了耐用手电筒。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097245,
+        "message": "你在这里看到 4 玻璃碎片，2 <color_ltgreen>|| </color>布料 和 2 件其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097270,
+        "message": "黑影丧尸 抓住了你！",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097270,
+        "message": "Tom Hooper 说：\"让一下，陌生人！\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097271,
+        "message": "Tom Hooper 说：\"能让我过去吗， 帅哥？\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097272,
+        "message": "你躯干的累赘值过高，令你战斗时无法保持平衡。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097272,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097272,
+        "message": "黑影丧尸 咬到了你的 躯干，但是没能穿透护甲！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097272,
+        "message": "Tom Hooper 说：\"对不起，请让我过去。\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097273,
+        "message": "黑影丧尸 向你猛抓过来！",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097273,
+        "message": "Tom Hooper 说：\"能让我过去吗， 陌生人？\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097274,
+        "message": "黑影丧尸 弹开了 墙。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097274,
+        "message": "你造成 黑影丧尸 晕眩 造成 103 点伤害。暴击！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097274,
+        "message": "黑影丧尸 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097274,
+        "message": "Tom Hooper 说：\"等我一会，黑影丧尸 的尸体 归我了。\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097274,
+        "message": "Tom Hooper 说：\"别挡我的路，脑残 ！\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097275,
+        "message": "Tom Hooper 说：\"对不起，请让我过去。\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097276,
+        "message": "你在这里看到 1 <color_ltred>\\. </color>短裤 （肮脏），1 <color_yellow>|\\ </color>领针 （肮脏） 和 3 件其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097279,
+        "message": "这里有个 地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097279,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097279,
+        "message": "正在存档，可能需要点时间。",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097280,
+        "message": "你在这里看到 4 玻璃碎片，2 <color_ltgreen>|| </color>布料 和 2 件其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097281,
+        "message": "你在这里看到 3 钉子 和 10 碎木。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097341,
+        "message": "长臂丧尸 的双臂飞出，抓住了 你！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097343,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097343,
+        "message": "长臂丧尸 试着抓住你，但你把它打回去了！",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097343,
+        "message": "长臂丧尸 试着把你拖过去，但你避开了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097343,
+        "message": "长臂丧尸 咬到了你的 右臂！",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097344,
+        "message": "Tom Hooper 胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097345,
+        "message": "你用你的 <color_green>++ </color>火焰之剑（关） 格挡了 很多 的伤害！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097345,
+        "message": "长臂丧尸 击中了你的 右臂。",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097345,
+        "message": "Tom Hooper 敲击 长臂丧尸。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097346,
+        "message": "你造成 长臂丧尸 晕眩 造成 109 点伤害。暴击！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097346,
+        "message": "长臂丧尸 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097346,
+        "message": "Tom Hooper 说：\"等我一会，长臂丧尸 的尸体 归我了。\"",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097349,
+        "message": "这对你来说轻而易举，对把 生存 技能练过 8 级没有任何帮助。",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097350,
+        "message": "尸体在你能完全击碎它前动起来了！",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097350,
+        "message": "这里有个 人行道。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097350,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097350,
+        "message": "你在这里看到 1 <color_red>.. </color>棒球短裤（合身） （肮脏），1 <color_red>.. </color>连帽衫 （肮脏） 和 2 件其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097392,
+        "message": "From the 东北 you hear 哐嘡。",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097395,
+        "message": "你撬开了门。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097395,
+        "message": "From the 北 you hear 嘎嚓！",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097397,
+        "message": "From the 东南 you hear 哐嘡！",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097397,
+        "message": "健壮丧尸 试着抓住你，但你挣脱了！",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097398,
+        "message": "健壮丧尸 咬到了你的 头部，但是没能穿透护甲！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097399,
+        "message": "你斩击 健壮丧尸 造成 85 点伤害。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097399,
+        "message": "健壮丧尸 向你猛抓过来！",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097401,
+        "message": "你砍残 健壮丧尸 造成 77 点伤害。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097401,
+        "message": "健壮丧尸 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097401,
+        "message": "长臂丧尸 的双臂飞出，抓住了 你！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097403,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097403,
+        "message": "长臂丧尸 试着抓住你，但你把它打回去了！",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097403,
+        "message": "长臂丧尸 试着把你拖过去，但你避开了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097404,
+        "message": "长臂丧尸 咬到了你的 左腿，但是没能穿透护甲！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097405,
+        "message": "你躯干的累赘值过高，令你战斗时无法保持平衡。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097405,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097405,
+        "message": "你用你的 <color_green>++ </color>火焰之剑（关） 格挡了 很多 的伤害！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097405,
+        "message": "长臂丧尸 击中了你的 躯干，但你的 装甲 保护了你。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097406,
+        "message": "长臂丧尸 试着抓住你，但你把它打回去了！",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097406,
+        "message": "长臂丧尸 试着把你拖过去，但你避开了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097407,
+        "message": "你用你的 <color_green>++ </color>火焰之剑（关） 格挡了 很多 的伤害！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097407,
+        "message": "长臂丧尸 击中了你的 躯干。",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097408,
+        "message": "你躯干的累赘值过高，令你战斗时无法保持平衡。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097408,
+        "message": "你胡乱地挥打，但是没有击中。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097409,
+        "message": "长臂丧尸 试着抓住你，但你把它打回去了！",
+        "count": 1,
+        "type": 4
+      },
+      {
+        "turn": 2097409,
+        "message": "长臂丧尸 试着把你拖过去，但你避开了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097410,
+        "message": "长臂丧尸 咬到了你的 左臂，但是没能穿透护甲！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097411,
+        "message": "你砍击 长臂丧尸 造成 77 点伤害。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097411,
+        "message": "你用你的 <color_green>++ </color>火焰之剑（关） 格挡了 很多 的伤害！",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097411,
+        "message": "长臂丧尸 击中了你的 头部，但你的 装甲 保护了你。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097412,
+        "message": "长臂丧尸 抓住了你！",
+        "count": 1,
+        "type": 1
+      },
+      {
+        "turn": 2097412,
+        "message": "长臂丧尸 试着把你拖过去，但你避开了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097413,
+        "message": "你砍击 长臂丧尸 造成 85 点伤害。",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097413,
+        "message": "长臂丧尸 死了！",
+        "count": 1,
+        "type": 0
+      },
+      {
+        "turn": 2097415,
+        "message": "这里有个 扶手椅。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097415,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097420,
+        "message": "尸体被彻底弄成了一滩烂泥。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097427,
+        "message": "尸体被彻底弄成了一滩烂泥。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097427,
+        "message": "你在这里看到 1 <color_ltred>\\. </color>棒球短裤（合身） （肮脏），1 <color_yellow>|\\ </color>Polo衫 （肮脏） 和 2 件其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097428,
+        "message": "这里有个 扶手椅。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097428,
+        "message": "你捡起：1 加仑壶 [/]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097434,
+        "message": "这里有个 桌子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097434,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097435,
+        "message": "这里有个 桌子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097435,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097437,
+        "message": "这里有个 桌子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097437,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097442,
+        "message": "你放慢脚步，移动到扶手椅 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097444,
+        "message": "你放慢脚步，移动出扶手椅 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097445,
+        "message": "你在这里看到 1 碎木 和 1 钉子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097447,
+        "message": "你在这里看到 1 2x4制式木料，2 钉子 和 1 碎木。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097463,
+        "message": "你和 Tom Hooper 互换位置。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097465,
+        "message": "你在这里看到 1 碎木 和 1 钉子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097470,
+        "message": "这里有个 地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097470,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097472,
+        "message": "你在这里看到 1 碎木 和 1 钉子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097474,
+        "message": "你和 Tom Hooper 互换位置。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097481,
+        "message": "你在这里看到 2 碎木 和 1 钉子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097482,
+        "message": "你在这里看到 7 2x4制式木料，8 钉子 和 7 碎木。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097490,
+        "message": "这里有个 地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097490,
+        "message": "你捡起：1 包裹纸 装有 鱼肉三明治 (4) [;]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097497,
+        "message": "这里有个 冰箱。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097497,
+        "message": "你捡起：1 玻璃瓶 装有 伏特加 (21) [=]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097501,
+        "message": "这里有个 橱柜。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097501,
+        "message": "你捡起：1 锡罐 装有 咖喱炖肉 （新鲜） (2) [[]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097511,
+        "message": "From the 西 you hear 一声尖锐的金属断裂的声音！",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097512,
+        "message": "这里有个 地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097514,
+        "message": "你捡起：1 加热元件 [{]",
+        "count": 3,
+        "type": 5
+      },
+      {
+        "turn": 2097517,
+        "message": "From the 西 you hear 瓷器碎裂声！",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097517,
+        "message": "这里有个 地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097517,
+        "message": "没有必要",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097522,
+        "message": "这里有个 地板。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097522,
+        "message": "你捡起：1 塑料袋 装有 干米 (16) [|]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097530,
+        "message": "你放慢脚步，移动到椅子 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097532,
+        "message": "这里有个 椅子。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097532,
+        "message": "你捡起：1 塑料袋 装有 茶叶 (20) [}]",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097535,
+        "message": "你放慢脚步，移动到桌子 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097537,
+        "message": "你放慢脚步，移动出桌子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097539,
+        "message": "你放慢脚步，移动到椅子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097541,
+        "message": "你放慢脚步，移动出椅子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097553,
+        "message": "你在这里看到 1 <color_ltgreen>|| </color>太阳镜。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097564,
+        "message": "你在这里看到 1 <color_ltgreen>|| </color>太阳镜。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097599,
+        "message": "你放慢脚步，移动到椅子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097601,
+        "message": "你放慢脚步，移动出椅子 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097604,
+        "message": "你放慢脚步，移动到有窗帘的窗（开） ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097606,
+        "message": "你放慢脚步，移动出有窗帘的窗（开） ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097621,
+        "message": "你放慢脚步，移动到灌木 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097624,
+        "message": "你放慢脚步，移动出灌木 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097644,
+        "message": "你放慢脚步，移动到灌木 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097647,
+        "message": "你放慢脚步，移动出灌木 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097717,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097722,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097726,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097726,
+        "message": "你在这里看到 2 钢锭 和许多其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097730,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097735,
+        "message": "你放慢脚步，移动出重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097738,
+        "message": "你将你的 加仑壶 放到 装甲车 的 车载锻造台 里面。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097741,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097746,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097750,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097754,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097758,
+        "message": "你放慢脚步，移动出重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097764,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 2,
+        "type": 3
+      },
+      {
+        "turn": 2097764,
+        "message": "你在这里看到 2 钢锭 和许多其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097768,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097772,
+        "message": "你将你的 闹钟 放到 装甲车 的 后备箱 里面。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097775,
+        "message": "你将你的 加热元件 放到 装甲车 的 后备箱 里面。",
+        "count": 3,
+        "type": 5
+      },
+      {
+        "turn": 2097776,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097776,
+        "message": "你在这里看到 2 钢锭 和许多其它东西。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097780,
+        "message": "你放慢脚步，移动到重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097784,
+        "message": "你放慢脚步，移动出重型车架 ",
+        "count": 1,
+        "type": 3
+      },
+      {
+        "turn": 2097787,
+        "message": "你将你的 生内脏 （新鲜） 放到 装甲车 的 迷你冰箱 里面。",
+        "count": 1,
+        "type": 5
+      },
+      {
+        "turn": 2097798,
+        "message": "你将你的 肉块 （新鲜） 放到 装甲车 的 迷你冰箱 里面。",
+        "count": 11,
+        "type": 5
+      },
+      {
+        "turn": 2097799,
+        "message": "正在存档，可能需要点时间。",
+        "count": 1,
+        "type": 4
+      }
+    ],
+    "curmes": 2097799
+  }
+}
